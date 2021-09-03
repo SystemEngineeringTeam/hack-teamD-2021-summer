@@ -1,0 +1,3257 @@
+# Release 20200827-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200827.csv.xz
+	execute: Periodic data update on 2020-08-27(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/45315fdad28456d3e98d5b36bea46a8010235cac
+
+# Release 20200820-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200820.csv.xz
+	execute: Periodic data update on 2020-08-20(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/896eaaddf272137d5a8e0c9ec14628c0c8160b20
+
+# Release 20200813-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200813.csv.xz
+	execute: Periodic data update on 2020-08-13(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a43d103aac0c1d82fc81b8dd766d8e6e4c2a5fd8
+
+# Release 20200709-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200709.csv.xz
+	execute: Periodic data update on 2020-07-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/30e175d00ccc8157f6f7fbc3692a61be697b65e7
+
+# Release 20200521-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200521.csv.xz
+	execute: Periodic data update on 2020-05-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/578da5cc06db27bc3736faa263913649454d78ea
+
+# Release 20200514-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200514.csv.xz
+	execute: Periodic data update on 2020-05-14(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/8b57efd2bb389accc88b52f85f6b3b8eeb4086ed
+
+# Release 20200430-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200430.csv.xz
+	execute: Periodic data update on 2020-04-30(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2a91ecbf28cc2ba0c66564a5d6ec63edefb96bac
+
+# Release 20200315-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200315.csv.xz
+	execute: 2020-03-15(Sun) is the 5th anniversary since the first release
+		- We have received over 2000 GitHub Stars. Thank you !!
+		- We will continue to update and improve for 2500 Stars and the 6th anniversary
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/80565dcea02f02d487fa1db21b5b4d817e564ef3
+
+# Release 20200312-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200312.csv.xz
+	execute: Periodic data update on 2020-03-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d9d8abc8c4072199559df42235d15b8d2e3519c9
+
+# Release 20200130-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200130.csv.xz
+	execute: Periodic data update on 2020-01-30(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b1a72b5b52104f16e2a616e98826e9d8d8295fed
+
+# Release 20200123-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200123.csv.xz
+	execute: Periodic data update on 2020-01-23(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3bae49991bfe70d964c3b88a429f8ca8ed497a3a
+
+# Release 20200120-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200120.csv.xz
+	execute: Periodic data update on 2020-01-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dad5d12182b38f2b70564fd354371714728ead5e
+
+# Release 20200109-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20200109.csv.xz
+	execute: Periodic data update on 2020-01-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ac87c690f908d870fa133acf4ad80498ccfed821
+
+# Release 20191230-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191230.csv.xz
+	execute: Periodic data update on 2019-12-30(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a991112f8b3c738ec02c1869fb1fe68259da6edd
+
+# Release 20191226-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191226.csv.xz
+	execute: Periodic data update on 2019-12-26(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0aadb2b3db6861e0bd49a0332eccdd95582a0a7a
+
+# Release 20191212-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191212.csv.xz
+	execute: Periodic data update on 2019-12-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/376804137b3345060134d661faa926d89c443571
+
+# Release 20191205-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191205.csv.xz
+	execute: Periodic data update on 2019-12-05(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a637d5ceb479ff84ead041bbc68733ee1e91857d
+
+# Release 20191202-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191202.csv.xz
+	execute: Periodic data update on 2019-12-02(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a48105ed085883b109e608e5147bfe9427f2cf4b
+
+# Release 20191128-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191128.csv.xz
+	execute: Periodic data update on 2019-11-28(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/be8d19d0ed6e43a6da12840ac7f64464fdab4282
+
+# Release 20191125-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191125.csv.xz
+	execute: Periodic data update on 2019-11-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/af976b0ea07514e78d16cd111d1ed39830f7eb94
+
+# Release 20191111-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191111.csv.xz
+	execute: Periodic data update on 2019-11-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2ae4148ed60b0fa4ba4b33397a2d3983c0f20778
+
+# Release 20191107-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191107.csv.xz
+	execute: Periodic data update on 2019-11-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5b5da443563ba4ebba6096a808f0c1f06348ed29
+
+# Release 20191031-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191031.csv.xz
+	execute: Periodic data update on 2019-10-31(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/aa1f331f59b88c85a346cb80485f8a4a325c6bd2
+
+# Release 20191024-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20191024.csv.xz
+	execute: Periodic data update on 2019-10-24(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/20bab22d0d3986041deec42b1a09feb749643a51
+
+# Release 20190930-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190930.csv.xz
+	execute: Periodic data update on 2019-09-30(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4ff087ca0d302827d83cd69385d484f55c261940
+
+# Release 20190926-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190926.csv.xz
+	execute: Periodic data update on 2019-09-26(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4a4f4633d8c8b6393ad89c4b26477e216d00592d
+
+# Release 20190923-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190923.csv.xz
+	execute: Periodic data update on 2019-09-23(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/229d8e0ace9e07e217346c39f278c1e68dbe56fe
+
+# Release 20190919-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190919.csv.xz
+	execute: Periodic data update on 2019-09-19(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e3c1f4e23442d2eebe789a2a8f7eb01bd2169225
+
+# Release 20190912-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190912.csv.xz
+	execute: Periodic data update on 2019-09-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bec56ced365aa53a0a81f64deeef573b41463c9a
+
+# Release 20190911-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190911.csv.xz
+	execute: Nonperiodic data update on 2019-09-11(Wed)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/87ea03e48e7b577071b3d6dfdf740fc363190022
+
+# Release 20190905-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190905.csv.xz
+	execute: Periodic data update on 2019-09-05(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e9953e00d97a21212a864fc36b8386955511bccf
+
+# Release 20190902-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190902.csv.xz
+	execute: Periodic data update on 2019-09-02(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0534a3c542f1a2f5b50da4dac6e34cc9e3508537
+
+	Today is @overlast's birthday.
+	Thank you for your supporting !!
+	https://www.amazon.co.jp/hz/wishlist/ls/215KD7HCB406E
+
+# Release 20190829-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190829.csv.xz
+	execute: Periodic data update on 2019-08-29(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/714095e2c5ed1a4491516933d2ac5102d33279d5
+
+# Release 20190826-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190826.csv.xz
+	execute: Periodic data update on 2019-08-26(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4e5149efa3dd343922865324a50b7cf3a767d03e
+
+# Release 20190819-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190819.csv.xz
+	execute: Periodic data update on 2019-08-19(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/01dbce74d6d2cbaa520560dbf88d94fd04400153
+
+# Release 20190815-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190815.csv.xz
+	execute: Periodic data update on 2019-08-15(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d2a0ca763cf004832665214d22de19645d5c2672
+
+# Release 20190812-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190812.csv.xz
+	execute: Periodic data update on 2019-08-12(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/801afd61e0d78551bd272bceca57fa6195a119ed
+
+# Release 20190808-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190808.csv.xz
+	execute: Periodic data update on 2019-08-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4f83d5325fedcc90144a3592787e21a3af2b99a2
+
+# Release 20190806-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190806.csv.xz
+	execute: Nonperiodic data update on 2019-08-06(Tue)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3e3d02029194de7ba44853c1bdf44d284da289d4
+
+# Release 20190722-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190722.csv.xz
+	execute: Periodic data update on 2019-07-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d968549e3217599f60fa80be2a73daec4942979d
+
+# Release 20190701-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190701.csv.xz
+	execute: Periodic data update on 2019-07-01(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/de41dae5a2e8508d86c8f5505d7667dbea951426
+
+# Release 20190624-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190624.csv.xz
+	execute: Periodic data update on 2019-06-24(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/29f272bb0ec0a74e8b83002ddb030c6190c66d36
+
+# Release 20190620-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190620.csv.xz
+	execute: Periodic data update on 2019-06-20(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/136d2a753e2d5711a7a89ae4dc41e525d0b6b560
+
+# Release 20190617-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190617.csv.xz
+	execute: Periodic data update on 2019-06-17(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dd62ea981650a363c877376501d2acfd38608223
+
+# Release 20190613-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190613.csv.xz
+	execute: Periodic data update on 2019-06-13(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a9501bb4be13bb6db9c3bf9ab7ca20d4cfbd79cc
+
+# Release 20190610-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190610.csv.xz
+	execute: Periodic data update on 2019-06-10(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ecfcbc5fb89a886d7424df1e1f994f81e2b1822a
+
+# Release 20190530-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190530.csv.xz
+	execute: Periodic data update on 2019-05-30(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/564da32e0d347aa4d670059cbc066c9bf4b1af64
+
+# Release 20190527-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190527.csv.xz
+	execute: Periodic data update on 2019-05-27(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2cf41ea5f3da5850a06aecd61584034f94afc5ba
+
+# Release 20190523-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190523.csv.xz
+	execute: Periodic data update on 2019-05-23(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ce5ad9cbf617daec4bed9c80ed70a4c3e9c4450e
+
+# Release 20190520-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190520.csv.xz
+	execute: Periodic data update on 2019-05-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2b90f44c6c403e27288c8f4f5c9ba7d8f384abdd
+
+# Release 20190509-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190509.csv.xz
+	execute: Periodic data update on 2019-05-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4f5de82e50958450a1510af02ad4d6f3af8fdbb3
+
+# Release 20190506-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190506.csv.xz
+	execute: Periodic data update on 2019-05-06(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e2ccb205b77cc76e2c6155f4d040f7090e83a3e7
+
+# Release 20190502-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190502.csv.xz
+	execute: Periodic data update on 2019-05-02(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c1bc683dd6c2ef74f3957d5178a26b70a5880077
+
+# Release 20190429-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190429.csv.xz
+	execute: Periodic data update on 2019-04-29(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/03b43faeb60c678cab03e30d539a760069ef86ce
+
+# Release 20190425-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190425.csv.xz
+	execute: Periodic data update on 2019-04-25(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d07f2b37b7ca066ad5dad81b82c9edb186eb5bc2
+
+# Release 20190422-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190422.csv.xz
+	execute: Periodic data update on 2019-04-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/89f7f237d510110435a38c826db3f83109eca724
+
+# Release 20190418-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190418.csv.xz
+	execute: Periodic data update on 2019-04-18(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/09e3cbd56307164010dfa6486f51eb1d2e732023
+
+# Release 20190415-01
+
+### New seed data
+
+* seed/neologd-date-time-infreq-dict-seed.20190415.csv.xz, seed/neologd-date-time-infreq-dict-seed.20190415.csv.xz
+	execute: Periodic data update on 2019-04-15(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e78e7c252b5b3b6fae233f6ab738cf1d90648664
+
+* seed/mecab-user-dict-seed.20190415.csv.xz
+	execute: Periodic data update on 2019-04-15(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/35affc59fdd87261eebc6f40361e011b48a467b1
+
+# Release 20190411-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190411.csv.xz
+	execute: Periodic data update on 2019-04-11(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/43b3b320e9f7e4d632c161c9f25211f4c784080e
+
+# Release 20190408-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190408.csv.xz
+	execute: Periodic data update on 2019-04-08(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c3181c9bdb875bf19e2600f303ad3731ca1a7ac0
+
+# Release 20190404-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190404.csv.xz
+	execute: Periodic data update on 2019-04-04(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/21efc63b4db065d88b29f61f1f2ff7b98f863151
+
+# Release 20190401-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190401.csv.xz
+	execute: Periodic data update on 2019-04-01(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a4b6f0a88aa3d3bf96919e40fafcbc992af8e636
+
+# Release 20190325-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190325.csv.xz
+	execute: Periodic data update on 2019-03-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/718fc4505841c42dfbc05b724c9e7d3f5eea238e
+
+# Release 20190321-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190321.csv.xz
+	execute: Periodic data update on 2019-03-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6d6d12f51c1b3f147f546b15608093f258d5ef54
+
+# Release 20190307-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190307.csv.xz
+	execute: Periodic data update on 2019-03-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4ef41724e3d3737505c80a3ed3199c3ffabfe4d9
+
+# Release 20190228-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190228.csv.xz
+	execute: Periodic data update on 2019-02-28(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7062ea947cb0089eedb10f1bbe0242b96c7b52aa
+
+# Release 20190225-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190225.csv.xz
+	execute: Periodic data update on 2019-02-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1809a139f26dae67ac0e536b02c8cb800a651c05
+
+# Release 20190221-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190221.csv.xz
+	execute: Periodic data update on 2019-02-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dd4e31d8ac94de30e9d19fe54e044782333154ff
+
+# Release 20190218-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190218.csv.xz
+	execute: Periodic data update on 2019-02-18(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/df9172846f045a9f984e1003308da9bbe714b7d2
+
+# Release 20190214-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190214.csv.xz
+	execute: Periodic data update on 2019-02-14(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/90b987d84a1f3bce13efb451625defbe1ddaf5de
+
+# Release 20190211-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190211.csv.xz
+	execute: Periodic data update on 2019-02-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c28d369b5a36f88e77c471f8698bb281e34205e2
+
+# Release 20190204-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190204.csv.xz
+	execute: Periodic data update on 2019-02-04(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/959267f52127fdf8aa6d5fa3c31529a18ca70c03
+
+# Release 20190131-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190131.csv.xz
+	execute: Periodic data update on 2019-01-31(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0d471356c168411ab88809ac289069da82de55db
+
+# Release 20190128-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190128.csv.xz
+	execute: Periodic data update on 2019-01-28(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/8e99fa60fa20fdbca4eedd60748f0018edc0c822
+
+# Release 20190124-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190124.csv.xz
+	execute: Periodic data update on 2019-01-24(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/807275095538a92ac6c7a028bec84ba52b12bc28
+
+# Release 20190121-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190121.csv.xz
+	execute: Periodic data update on 2019-01-21(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b0c271e467383722ec44531da1075eb69b2b205a
+
+# Release 20190117-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190117.csv.xz
+	execute: Periodic data update on 2019-01-17(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/caad62f411dc4225dfd2f08eeb646d25beb7b490
+
+# Release 20190114-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20190114.csv.xz
+	execute: Periodic data update on 2019-01-14(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3bf0ea9f09ba257890d4e04a7b9e53a0142cde14
+
+# Release 20181227-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181227.csv.xz
+	execute: Periodic data update on 2018-12-27(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/83247e3c25ac94f4881c2710cb33c24bd3eb1012
+
+# Release 20181224-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181224.csv.xz
+	execute: Periodic data update on 2018-12-24(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f89f57e6e2c8e1122a13c968f09f75feb68ce237
+
+# Release 20181220-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181220.csv.xz
+	execute: Periodic data update on 2018-12-20(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b8b5ba3f2e22ad7c938b803d4d9bec1bb7fcc2f0
+
+# Release 20181213-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181213.csv.xz
+	execute: Periodic data update on 2018-12-13(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c554c6d9c89e5d4fa7c100f35ce29fa7574bc673
+
+# Release 20181210-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181210.csv.xz
+	execute: Periodic data update on 2018-12-10(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/66dc3127383642d07f8d521778640cd92c990e4d
+
+# Release 20181206-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181206.csv.xz
+	execute: Periodic data update on 2018-12-06(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a1b2e910cbb7f6e4b4cdfdeedec328460173942b
+
+# Release 20181203-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181203.csv.xz
+	execute: Periodic data update on 2018-12-03(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ed90cc57c7705f7914484c587bcc7746c91d4dde
+
+# Release 20181126-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181126.csv.xz
+	execute: Periodic data update on 2018-11-26(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f2eef9b4beb4135177e48c2ee94817ef46b2af25
+
+# Release 20181112-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181112.csv.xz
+	execute: Periodic data update on 2018-11-12(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0a714498c258cb7cf064c3d2e7af6155de9d6491
+
+# Release 20181108-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181108.csv.xz
+	execute: Periodic data update on 2018-11-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/afca6710e3116723a283f30b7d60e33f1f62b285
+
+# Release 20181105-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181105.csv.xz
+	execute: Periodic data update on 2018-11-05(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c0876635fcc7908ca94a9cf06ea4fd58c34d2f05
+
+# Release 20181022-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181022.csv.xz
+	execute: Periodic data update on 2018-10-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e56bc59c5cd433480d4d210fb2c05b903b4c384f
+
+# Release 20181018-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181018.csv.xz
+	execute: Periodic data update on 2018-10-18(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/52e0739133dc3d397251c344859e1112bb91588b
+
+# Release 20181015-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181015.csv.xz
+	execute: Periodic data update on 2018-10-15(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6502e4d04bfada37fd59e71c0b8bfe9baede76f3
+
+# Release 20181011-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181011.csv.xz
+	execute: Periodic data update on 2018-10-11(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a827eb6adc80b2409cc9770b11351cdcaddca39c
+
+# Release 20181004-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20181004.csv.xz
+	execute: Periodic data update on 2018-10-04(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7a4662b24ac0391b3a049881103aaa382d4ef837
+
+# Release 20180927-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180927.csv.xz
+	execute: Periodic data update on 2018-09-27(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/744b210be5c6b832b4cd3bc5dfeee7c08d3736a4
+
+# Release 20180920-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180920.csv.xz
+	execute: Periodic data update on 2018-09-20(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4a087256428dd765ba697e50d8bd52d753517d5d
+
+# Release 20180917-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180917.csv.xz
+	execute: Periodic data update on 2018-09-17(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0ec8ca46b16ad9f2571271d4ff9fe09ffdc4056d
+
+# Release 20180913-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180913.csv.xz
+	execute: Periodic data update on 2018-09-13(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bbc783a198582bf818a05fc460d912d2144de50d
+
+# Release 20180906-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180906.csv.xz
+	execute: Periodic data update on 2018-09-06(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5ada2d4aacdf5392a9d2e3a2e0e31462163676ea
+
+# Release 20180831-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180831.csv.xz
+	execute: Periodic data update on 2018-08-31(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/69dc54ba42f0d9e07be8873d32d4e95d52f8cafe
+
+# Release 20180823-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180823.csv.xz
+	execute: Periodic data update on 2018-08-23(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/68229996d2d26bf0a5cf0b3c54ef1d90b69845a9
+
+# Release 20180820-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180820.csv.xz
+	execute: Periodic data update on 2018-08-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c1c1448ce9fae5f723426b0e2eee1188f60ea19f
+
+# Release 20180813-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180813.csv.xz
+	execute: Periodic data update on 2018-08-13(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/afbd5cf3beae3ff3667670d89cd958837dea08e7
+
+# Release 20180809-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180809.csv.xz
+	execute: Periodic data update on 2018-08-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a95ca9c19366ab09331cbd2aeeceb3b8a1aad04d
+
+# Release 20180806-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180806.csv.xz
+	execute: Periodic data update on 2018-08-06(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/34b46a5d8d752a1c1fe1b028acbde54901a5a67b
+
+# Release 20180802-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180802.csv.xz
+	execute: Periodic data update on 2018-08-02(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/07edeac4a1b6eca2de6dc72f9c071b2d71674fc0
+
+# Release 20180730-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180730.csv.xz
+	execute: Periodic data update on 2018-07-30(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/8b14fae5d23c0ec5b4a83ea98ee738ffff13abdc
+
+# Release 20180727-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180727.csv.xz
+	execute: Periodic data update on 2018-07-27(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a52daa56c0f73df6931c949588d59f4051e5ca6f
+
+# Release 20180723-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180723.csv.xz
+	execute: Periodic data update on 2018-07-23(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b69dff46a1043f88292f242fac874b3180b2ae3a
+
+# Release 20180719-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180719.csv.xz
+	execute: Periodic data update on 2018-07-19(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0179f0874a2217eb6255041559ac931e518d4a93
+
+# Release 20180712-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180712.csv.xz
+	execute: Periodic data update on 2018-07-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/401c8b76b51d4b17d53170aaea5b1508288d1c96
+
+# Release 20180709-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180709.csv.xz
+	execute: Periodic data update on 2018-07-09(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/390b6f76d64f77f21c17beb3bf81d2141781245f
+
+# Release 20180705-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180705.csv.xz
+	execute: Periodic data update on 2018-07-05(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e8024ac5b8814e49e8f4b8bce5a89af99a3d9049
+
+# Release 20180628-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180628.csv.xz
+	execute: Periodic data update on 2018-06-28(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/75a43dbacf06453c1f866342f1baa5297f649f5e
+
+# Release 20180625-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180625.csv.xz
+	execute: Periodic data update on 2018-06-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ee9d7cd509a26d85ace6f1ce650426eb8163f553
+
+# Release 20180621-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180621.csv.xz
+	execute: Periodic data update on 2018-06-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1154a04f07f68c541a1caeeab3edf83e9edbf5cf
+
+# Release 20180618-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180618.csv.xz
+	execute: Periodic data update on 2018-06-18(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/11164ac6bd801a1bffa139dc84c06a6ff70f4ffd
+
+# Release 20180611-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180611.csv.xz
+	execute: Periodic data update on 2018-06-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f5eb23578170218b44b3ee121c95531a7d4d31fe
+
+# Release 20180607-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180607.csv.xz
+	execute: Periodic data update on 2018-06-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/acd099e829e5bcb5429c1a09c4ddc1a48ef7a485
+
+# Release 20180604-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180604.csv.xz
+	execute: Periodic data update on 2018-06-04(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e647d1f1c54987d4f770e89ac2c7045b2e69df98
+
+# Release 20180531-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180531.csv.xz
+	execute: Periodic data update on 2018-05-31(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7784d626d30043f822bbc609cf5b012e22312edc
+
+# Release 20180524-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180524.csv.xz
+	execute: Periodic data update on 2018-05-24(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0e010dd1f5354dfd85dd8a3b0b3d704903d6f87c
+
+# Release 20180521-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180521.csv.xz
+	execute: Periodic data update on 2018-05-21(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/de0d9712791efe1d68405311c03968ed5a4bd68e
+
+# Release 20180517-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180517.csv.xz
+	execute: Periodic data update on 2018-05-17(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ed78170b1a4b7b041c52771f4429fefb5618a403
+
+# Release 20180514-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180514.csv.xz
+	execute: Periodic data update on 2018-05-14(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9e043c48aea664b59f436f512fdcabfe308990f2
+
+# Release 20180510-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180510.csv.xz
+	execute: Periodic data update on 2018-05-10(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/016c958ac8f7ed02ffa73ccbca3d563079480f39
+
+# Release 20180507-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180507.csv.xz
+	execute: Periodic data update on 2018-05-07(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ce14eb9f654bd47f98a0231b744ad7ddfff6659c
+
+# Release 20180503-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180503.csv.xz
+	execute: Periodic data update on 2018-05-03(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a4547106b639cf580f7e2b0c6a0c617010fe2940
+
+# Release 20180423-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180423.csv.xz
+	execute: Periodic data update on 2018-04-23(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a9b07bbed21f38611dbfd7108f351a5dcb4bde60
+
+# Release 20180419-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180419.csv.xz
+	execute: Periodic data update on 2018-04-19(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7d98ade5e30b22748a7c03466602ad1b3da1047a
+
+# Release 20180416-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180416.csv.xz
+	execute: Periodic data update on 2018-04-16(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c84c40b110a1235af33c2bbfe9e22e04624664a9
+
+
+# Release 20180409-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180409.csv.xz
+	execute: Periodic data update on 2018-04-09(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6bdc8bdcd994c880e8e9c3df3208e49d144c5ca0
+
+# Release 20180405-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180405.csv.xz
+	execute: Periodic data update on 2018-04-05(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/de6ba51d49c7c44f934c87cb5a580e4fc1b0ebbf
+
+# Release 20180329-01
+
+### Updated command line tool
+* libexec/test-mecab-ipadic-neologd.sh
+	execute: Update a processing to get a buzz phrase list
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d8e414b256400aeb939429c8db52ed0815c8eaff
+
+### New seed data
+* seed/mecab-user-dict-seed.20180329.csv.xz
+	execute: Periodic data update on 2018-03-29(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/cb69ffa93b56a32aeeeb43e204c3af7bb9eac3e5
+
+# Release 20180322-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180322.csv.xz
+	execute: Periodic data update on 2018-03-22(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4258a69e42c19eea38ddbd4e32051dd8383f9753
+
+# Release 20180315-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180315.csv.xz
+	execute: Periodic data update on 2018-03-15(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6537fe914d19b691510d0b7a0f879ffd02872c55
+
+# Release 20180308-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180308.csv.xz
+	execute: Periodic data update on 2018-03-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b6773da49abea60ecf9387efa822b47a7df9ca99
+
+# Release 20180306-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180306.csv.xz
+	execute: Periodic data update on 2018-03-06(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0aabacedfb880663851cfa6fb5ab1258ce600cab
+
+# Release 20180301-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180301.csv.xz
+	execute: Periodic data update on 2018-03-01(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ea58b20c0ba4a6136004c70915a81315beeb485c
+
+# Release 20180222-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180222.csv.xz
+	execute: Periodic data update on 2018-02-22(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7183c7162a425d34556405ce6ebe960e36212e69
+
+# Release 20180219-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180219.csv.xz
+	execute: Periodic data update on 2018-02-19(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d6b3e345450d3f159046914ea0caad4c97e5bc70
+
+# Release 20180215-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180215.csv.xz
+	execute: Periodic data update on 2018-02-15(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3aa3e73624a3638ed9d315f0162399823de861d5
+
+# Release 20180212-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180212.csv.xz
+	execute: Periodic data update on 2018-02-12(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9db0ac78852859f6a18415d0b024ce65fb27b852
+
+# Release 20180208-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180208.csv.xz
+	execute: Periodic data update on 2018-02-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/296fba28511c3c2d92a5b0219e90093356412343
+
+# Release 20180201-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180201.csv.xz
+	execute: Periodic data update on 2018-02-01(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/686429fbbc40c470bccc63e394f7f645888f6641
+
+# Release 20180125-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180125.csv.xz
+	execute: Periodic data update on 2018-01-25(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f2cf5d92f266d42b5e6d1288ad504e12b11043f3
+
+# Release 20180122-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180122.csv.xz
+	execute: Periodic data update on 2018-01-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/23091ba6fc04b6bbf77c20e727db1d44eebc25c3
+
+# Release 20180118-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180118.csv.xz
+	execute: Periodic data update on 2018-01-18(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/65707b2133753a10485eea8a5f8881a3eae6ed8a
+
+# Release 20180115-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180115.csv.xz
+	execute: Periodic data update on 2018-01-15(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d4e1f6b38e8f342367c054d60c3c872616eae2c8
+
+# Release 20180108-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180108.csv.xz
+	execute: Periodic data update on 2018-01-08(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/56f73374a7aef9beef4801f5bcca068e23c7f5ac
+
+# Release 20180104-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20180104.csv.xz
+	execute: Periodic data update on 2018-01-04(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7f625abe8b1b3bd290e4998f771b85763a40f4aa
+
+# Release 20171228-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171228.csv.xz
+	execute: Periodic data update on 2017-12-28(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b788f14e54fd455deadbe77365e63f96e671fe74
+
+# Release 20171225-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171225.csv.xz
+	execute: Periodic data update on 2017-12-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d2296d6c48b1d1ba323388f10b6b23224d5221c1
+
+# Release 20171218-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171218.csv.xz
+	execute: Periodic data update on 2017-12-18(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1a21a82e9f09f94b892cb1f1fcc93acbb5391325
+
+# Release 20171211-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171211.csv.xz
+	execute: Periodic data update on 2017-12-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9481736c916f82b9d144f19ebe2ae5c574e2500e
+
+# Release 20171207-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171207.csv.xz
+	execute: Periodic data update on 2017-12-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e0611078736e269325f5cc21c3176f61f7f961bc
+
+# Release 20171204-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171204.csv.xz
+	execute: Periodic data update on 2017-12-04(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dad47f682793b75d46976a8d1bbb520f9d6f60de
+
+# Release 20171130-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171130.csv.xz
+	execute: Periodic data update on 2017-11-30(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/362fe6b52269fd49f67032d76a014b9e096bf94
+
+# Release 20171127-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171127.csv.xz
+	execute: Periodic data update on 2017-11-27(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/54c72d9dff0475ce26ea9ca6d0f396dfe911003b
+
+# Release 20171123-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171123.csv.xz
+	execute: Periodic data update on 2017-11-23(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/02f96adc442d8a95933b93c04619ddc8ea820397
+
+# Release 20171120-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171120.csv.xz
+	execute: Periodic data update on 2017-11-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4dc8169715f89b8ed22a417f0a6dbc5712590caa
+
+# Release 20171116-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171116.csv.xz
+	execute: Periodic data update on 2017-11-16(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/8952cce9fb9f258efe286ed357020ba81ff15859
+
+# Release 20171113-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171113.csv.xz
+	execute: Periodic data update on 2017-11-13(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c5662fa649aead2469e36ad924e57626c2bd13c8
+
+# Release 20171109-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171109.csv.xz
+	execute: Periodic data update on 2017-11-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b3b66c7d37048b9a70f3dc440398bca7a724ca79
+
+# Release 20171106-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171106.csv.xz
+	execute: Periodic data update on 2017-11-06(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7150ca9b8e57a173ea56783510db12d3fdb35db6
+
+# Release 20171102-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171102.csv.xz
+	execute: Periodic data update on 2017-11-02(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/33a1649363981882485c0fde6800e7d05d8b0ef6
+
+# Release 20171030-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171030.csv.xz
+	execute: Periodic data update on 2017-10-30(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e9bab65eb0c266621a32255f41c027db389d1772
+
+# Release 20171023-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171023.csv.xz
+	execute: Periodic data update on 2017-10-23(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ffa9f19d67f9abf01d2c70127958fa6e528dcedb
+
+# Release 20171012-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171012.csv.xz
+	execute: Periodic data update on 2017-10-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/aa24e0089ef51773c0c919b4aaf2da52cf5ab521
+
+# Release 20171009-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171009.csv.xz
+	execute: Periodic data update on 2017-10-09(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bca100e555199f913317b7958f114e77fac38e9d
+
+# Release 20171002-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20171002.csv.xz
+	execute: Periodic data update on 2017-10-02(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f86ba8aa91fae0c38574761187ab1713f62e6885
+
+# Release 20170925-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170925.csv.xz
+	execute: Periodic data update on 2017-09-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/094184d053198406113c0504cdf51164868e95af
+
+# Release 20170921-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170921.csv.xz
+	execute: Periodic data update on 2017-09-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3e7a501fbaf7a6bb3af6656dc13e8eb86405e68e
+
+# Release 20170918-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170918.csv.xz
+	execute: Periodic data update on 2017-09-18(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/aeaeba349e5ac3aeb286a3a779562f414c390847
+
+# Release 20170911-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170911.csv.xz
+	execute: Periodic data update on 2017-09-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1b436ff027445737317d5f7d89d22b586b44155f
+
+# Release 20170907-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170907.csv.xz
+	execute: Periodic data update on 2017-09-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b2d987e62589d44417bbc1e0e79d461747817a35
+
+# Release 20170904-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170904.csv.xz
+	execute: Periodic data update on 2017-09-04(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5c8d2b395ffaa9df4a5229b5f48935a7cf0350fb
+
+# Release 20170828-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170828.csv.xz
+	execute: Periodic data update on 2017-08-28(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4fb31868e7420cad87d90a3353c0430bbb1df369
+
+# Release 20170821-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170821.csv.xz
+	execute: Periodic data update on 2017-08-21(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/13f5e1188d160953fdfc1fbfdc1da2665362a843
+
+# Release 20170814-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170814.csv.xz
+	execute: Periodic data update on 2017-08-14(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dad32d66aa473bfa5b546c8176405f46a7d2384c
+
+# Release 20170807-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170807.csv.xz
+	execute: Periodic data update on 2017-08-07(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/58d6132eabac71f7828e4059b39ad01e8445674d
+
+# Release 2017803-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170803.csv.xz
+	execute: Periodic data update on 2017-08-03(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/616ce0c90e3d143d0f1c02e83e55990cae436cf1
+
+# Release 20170731-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170731.csv.xz
+	execute: Periodic data update on 2017-07-31(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6a0d2bcd8ef722375fea7ad578884c58306469b5
+
+# Release 20170727-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170727.csv.xz
+	execute: Periodic data update on 2017-07-27(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/06d5a4f240a02f3107d8519cba7ad241b5f83955
+
+# Release 20170724-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170724.csv.xz
+	execute: Periodic data update on 2017-07-24(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9f34dca0b036d7ca4e5f2ff3d6e14ff9517dd65d
+
+# Release 20170720-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170720.csv.xz
+	execute: Periodic data update on 2017-07-20(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/322d27a8c66a9342e81984ad2d0e6894aafad218
+
+# Release 20170717-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170717.csv.xz
+	execute: Periodic data update on 2017-07-17(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/af1f22e4e61f9760d5660712a6cf2713fb0f3189
+
+# Release 20170713-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170713.csv.xz
+	execute: Periodic data update on 2017-07-13(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/97be44fc6dafeab2a78fbaab6bf125d509df5985
+
+# Release 20170710-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170710.csv.xz
+	execute: Periodic data update on 2017-07-10(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5a45b5e188fe203ffe6b6f2e9a5380bd2f44b4ef
+
+# Release 20170706-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170706.csv.xz
+	execute: Periodic data update on 2017-07-06(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/58b7a16124c21f46ad96fc20a788fe3999a9066f
+
+# Release 20170703-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170703.csv.xz
+	execute: Periodic data update on 2017-07-03(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/924ef41b478c31b992239ef496ef87976e2101ce
+
+# Release 20170630-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170630.csv.xz
+	execute: Periodic data update on 2017-06-30(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/cd9c8e5ff26204443e2f97b3564a972a3797a43f
+
+# Release 20170626-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170626.csv.xz
+	execute: Periodic data update on 2017-06-26(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/96ded8668713e99c3f2fb18e66c537affee30bf2
+
+# Release 20170622-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170622.csv.xz
+	execute: Periodic data update on 2017-06-22(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f30f00fc2b519b9d5b2ee74f634195bf310456e3
+
+# Release 20170615-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170615.csv.xz
+	execute: Periodic data update on 2017-06-15(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0858996a2b6618899e3400ca86a10cb4c0455364
+
+# Release 20170612-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170612.csv.xz
+	execute: Periodic data update on 2017-06-12(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/cf72fd39e0b192a61148b57d827328fc8ef6751b
+
+# Release 20170608-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170608.csv.xz
+	execute: Periodic data update on 2017-06-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6759b01698507bfab3c83ea5549a416bd2b899c2
+
+# Release 20170605-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170605.csv.xz
+	execute: Periodic data update on 2017-06-05(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4c4597681bd41187603858030950534a01ce3680
+
+# Release 20170601-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170601.csv.xz
+	execute: Periodic data update on 2017-06-01(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4c53861dbe96e49548dbaeb931ca1c3eaa6e2942
+
+# Release 20170529-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170529.csv.xz
+	execute: Periodic data update on 2017-05-29(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a06dea40f051c77d1714ba3d7d602b35a153d139
+
+# Release 20170525-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170525.csv.xz
+	execute: Periodic data update on 2017-05-25(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6a0b52943cd761276fa0a9b651141ced0d870445
+
+# Release 20170522-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170522.csv.xz
+	execute: Periodic data update on 2017-05-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4e29b0698c133cc62f4d94affcb6381663f31424
+
+# Release 20170518-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170518.csv.xz
+	execute: Periodic data update on 2017-05-18(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/601b8980efc4b2e24c12851af533e0e09bd0fcf3
+
+# Release 20170515-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170515.csv.xz
+	execute: Periodic data update on 2017-05-15(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dedf1d1a1f50e6c56ff725d5a0c4778a7dbfb1d1
+
+# Release 20170511-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170511.csv.xz
+	execute: Periodic data update on 2017-05-11(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6455a8edaf1eb9404deb2f04ed027766b777c429
+
+# Release 20170508-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170508.csv.xz
+	execute: Periodic data update on 2017-05-08(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/42fe157ad60912df4d756cb4820641d89990f825
+
+# Release 20170504-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170504.csv.xz
+	execute: Periodic data update on 2017-05-04(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0d42cd1aa19c01a97b7742a9c6ba9fd8140220bb
+
+# Release 20170501-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170501.csv.xz
+	execute: Periodic data update on 2017-05-01(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/34271f0ff9f04566bb37c380992d7ecd2c4ffb23
+
+# Release 20170427-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170427.csv.xz
+	execute: Periodic data update on 2017-04-27(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1fc481b01508634603159671f64c093f0ac9ce0f
+
+# Release 20170424-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170424.csv.xz
+	execute: Periodic data update on 2017-04-24(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f220876f903e235de83a3c07061035741778fb47
+
+# Release 20170420-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170420.csv.xz
+	execute: Periodic data update on 2017-04-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ae2c630c3188fc92587e396fc1c6953439cbdba2
+
+# Release 20170417-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170417.csv.xz
+	execute: Periodic data update on 2017-04-17(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c99172a1bbe4e4d1e45667907be6dac7ad17a0df
+
+# Release 20170413-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170413.csv.xz
+	execute: Periodic data update on 2017-04-13(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e95b23af3ee49217fd35cad0357dc8288c402638
+
+# Release 20170410-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170410.csv.xz
+	execute: Periodic data update on 2017-04-10(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5ae548f5858f6c5919dc83175ca38386ca00810b
+
+# Release 20170406-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170406.csv.xz
+	execute: Periodic data update on 2017-04-06(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bc0441097cf896d9a2652bb0b7cefa08ac129236
+
+# Release 20170403-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170403.csv.xz
+	execute: Periodic data update on 2017-04-03(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/52177661403956ab20784f232684e39b319c3bb5
+
+# Release 20170330-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170330.csv.xz
+	execute: Periodic data update on 2017-03-30(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bc889d5e58d324e51b9a61b5fdb333f9bcb18129
+
+# Release 20170327-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170327.csv.xz
+	execute: Periodic data update on 2017-03-27(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1eaab67fb186ff4cdba2ad9e110849766897820c
+
+# Release 20170323-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170323.csv.xz
+	execute: Periodic data update on 2017-03-23(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c894c1d725d56e6ce707d65688e4d19590ba2844
+
+# Release 20170320-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170320.csv.xz
+	execute: Periodic data update on 2017-03-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bfb590fbb32518f4514159c8ef14a0367a6faf58
+
+# Release 20170317-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170317.csv.xz
+	execute: Aperiodic data update on 2017-03-17(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f40c3d7014cc72914c589a54ea917e7cdcf87937
+
+# Release 20170313-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170313.csv.xz
+	execute: Periodic data update on 2017-03-13(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c8677a0d063fbe0fc408883351288d8c8b74c1d6
+
+# Release 20170309-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170309.csv.xz
+	execute: Periodic data update on 2017-03-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d0fb47ee29a0826cd645c5cb37f30d567cdfa0e4
+
+# Release 20170306-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170306.csv.xz
+	execute: Periodic data update on 2017-03-06(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5cf9ac1c6fc2538f79beddac87cc16284995028f
+
+# Release 20170303-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170303.csv.xz
+	execute: Aperiodic data update on 2017-03-03(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/76860579612b8926670f77dc6e952f49be23d593
+
+# Release 20170228-01
+
+### New patch file
+* misc/patch/Noun.demonst.csv.20170228.diff
+	execute: Add a patch file to fix the cost parameter of each entries of a Japanese pronoun
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c8be700f19be8bf8b7b67a0fc768aa8a6b663032
+
+# Release 20170227-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170227.csv.xz
+	execute: Periodic data update on 2017-02-27(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a5fa07b22975eeac0da9aec2ed66126dbfaca90c
+
+# Release 20170224-01
+
+### New seed data
+* seed/neologd-date-time-infreq-dict-seed.20170224.csv.xz, seed/neologd-quantity-infreq-dict-seed.20170224.csv.xz
+	execute: Add seed data files of infrequent named entity about time&quantity
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e7bb88a1dfb96f046bcd5354ed24ec859937862c
+
+# Release 20170223-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170223.csv.xz
+	execute: Periodic data update on 2017-02-23(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/cb7dc62453cd9f2763c0266bb01e67be7b5f55c0
+
+# Release 20170220-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170220.csv.xz
+	execute: Periodic data update on 2017-02-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d0537128d932b5bf31c75de62b01bd9b6ae3b58c
+
+# Release 20170216-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170216.csv.xz
+	execute: Periodic data update on 2017-02-16(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0af7a396cbdb89a7e070d05fb5e156b2fc99831a
+
+# Release 20170213-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170213.csv.xz
+	execute: Periodic data update on 2017-02-13(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3478a7c3413f2cf8112b9b0bd8b8bcc86bb4ae84
+
+# Release 20170209-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170209.csv.xz
+	execute: Periodic data update on 2017-02-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bc68557bcd04df9ffcd1f66b37b8b7a7a5a03272
+
+# Release 20170206-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170206.csv.xz
+	execute: Periodic data update on 2017-02-06(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ccf2171f5952a87cee4dc390b75712e9493bd224
+
+# Release 20170202-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170202.csv.xz
+	execute: Periodic data update on 2017-02-02(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/92761ba3b4dfb004c15d72da1bcbdfb00d24d265
+
+# Release 20170130-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170130.csv.xz
+	execute: Periodic data update on 2017-01-30(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e14a9ad3ff95145f3b27ebf0641503684ca298f0
+
+# Release 20170126-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170126.csv.xz
+	execute: Periodic data update on 2017-01-26(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/44eb19c275a38ebc26f88e43ccbae17f81a4fcc1
+
+# Release 20170123-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170123.csv.xz
+	execute: Periodic data update on 2017-01-23(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/8836221b9ed3e518f64dd37b60f7dbc1d643e1a4
+
+# Release 20170119-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170119.csv.xz
+	execute: Periodic data update on 2017-01-19(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/51bb9be3096102d8cdc3fdd75bd3a5cd50370121
+
+# Release 20170116-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20170116.csv.xz
+	execute: Periodic data update on 2017-01-16(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5bf0aa6417c0f7b33fcea4c77d1f65f0da04fb1e
+
+# Release 20170113-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170113.csv.xz
+	execute: Aperiodic data update on 2017-01-13(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2eeff72d6afc0f114250d5c7d554e19189faf9da
+
+# Release 20170112-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170112.csv.xz
+	execute: Periodic data update on 2017-01-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/859eae229b9e12798736798a9e2a7ec6fd8f32a0
+
+# Release 20170109-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20170109.csv.xz
+	execute: Periodic data update on 2017-01-09(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6f4b439948edc1a1c27e6dd98cf49e456e605beb
+
+# Release 20170105-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20170105.csv.xz
+	execute: Periodic data update on 2017-01-05(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6f298a396565dc99deae4034bc9a9e9b598021bb
+
+# Release 20170102-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20170102.csv.xz
+	execute: Periodic data update on 2017-01-02(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/142584eba40924bb794a4e27c5caf63c70514dad
+
+# Release 20161229-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161229.csv.xz
+	execute: Periodic data update on 2016-12-29(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/700f07a64e566ec3a1ac94eb27979da3e74002d0
+
+# Release 20161226-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161226.csv.xz
+	execute: Periodic data update on 2016-12-26(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/83ca94bd7dd122628723e0ca6ace08e3c612f25d
+
+# Release 20161222-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161222.csv.xz
+	execute: Periodic data update on 2016-12-22(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9bd86a7566a149a7c7e9a9f1977b5ec2078b856b
+
+# Release 20161219-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161219.csv.xz
+	execute: Periodic data update on 2016-12-19(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0443fd4417901a2fdb4d6a384e3592effe218896
+
+# Release 20161215-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161215.csv.xz
+	execute: Periodic data update on 2016-12-15(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e28b649ac14b8824e98b4ff508bcc8d5226c8a0c
+
+# Release 20161212-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161212.csv.xz
+	execute: Periodic data update on 2016-12-12(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/749f40354f3bc6bbe30bf617b1bdcaba40fffcf9
+
+# Release 20161208-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161208.csv.xz
+	execute: Periodic data update on 2016-12-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5dd539e34282dc9d5cf4b9529869f0884e0d4a2c
+
+# Release 20161205-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161205.csv.xz
+	execute: Periodic data update on 2016-12-05(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/650c951739c68cc4d5f2dd66a5cf9e58ee028efd
+
+# Release 20161201-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161201.csv.xz
+	execute: Periodic data update on 2016-12-01(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5cb96054e3e661a44804033bee42a22bb38f0dc6
+
+# Release 20161128-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161128.csv.xz
+	execute: Periodic data update on 2016-11-28(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bda95a9c7a2f9428b55f9ae8ada3e8b4c5892e2c
+
+# Release 20161124-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161124.csv.xz
+	execute: Periodic data update on 2016-11-24(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/df11e5719e79c41b740aff9948f098cc457c5c67
+
+# Release 20161121-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161121.csv.xz
+	execute: Periodic data update on 2016-11-21(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/edaed4702cbe94b158216ff43ba5ee134958f1df
+
+# Release 20161117-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161117.csv.xz
+	execute: Periodic data update on 2016-11-17(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/404584d628266e3207838918f333e55a396fac5b
+
+# Release 20161114-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161114.csv.xz
+	execute: Periodic data update on 2016-11-14(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/edaed4702cbe94b158216ff43ba5ee134958f1df
+
+# Release 20161110-02
+
+### New seed data
+* seed/mecab-user-dict-seed.20161110.csv.xz
+	execute: Periodic data update on 2016-11-10(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/237b2e83e6ff5cad5b7de246bf9b611ec9a393f4
+
+# Release 20161110-01
+
+### New seed data
+* seed/neologd-proper-noun-ortho-variant-dict-seed.20161110.csv.xz
+	execute: Fix POS information of entries in proper-noun-ortho-variant.csv (Thanks @kazuhira_r)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a5f59c3ab03392ec31f2a64534aa68f86b3d38ae
+
+# Release 20161107-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161107.csv.xz
+	execute: Periodic data update on 2016-11-07(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e86eb9170100593bd6da90194f2da687ac1f6d80
+
+# Release 20161103-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161103.csv.xz
+	execute: Periodic data update on 2016-11-03(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/780a470cbac9ecd391cb7c27a6c55a4a1c17c057
+
+# Release 20161101-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161101.csv.xz
+	execute: Aperiodic data update on 2016-11-01(Tue)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9f772d19ad8ed2d17d86ca54abaaed779ed0a18a
+
+# Release 20161031-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161031.csv.xz
+	execute: Periodic data update on 2016-10-31(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d8a8c82c93ab1a55c6da18b9456dfa8ec2d0e2d2
+
+# Release 20161028-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161028.csv.xz
+	execute: Aperiodic data update on 2016-10-28(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/69eaf5baa596081590043eb394c5a7bed812c0d3
+
+# Release 20161027-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161027.csv.xz
+	execute: Periodic data update on 2016-10-27(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6c41ad15d21fb0c30521e97dc7acd5228734aab6
+
+# Release 20161024-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161024.csv.xz
+	execute: Periodic data update on 2016-10-24(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bc276c533b682377fd6a65fed624866326f17096
+
+# Release 20161021-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161021.csv.xz
+	execute: Aperiodic data update on 2016-10-21(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/8b9290f12ea7bae3baa5f7a2fba0babc458c22c2
+
+# Release 20161020-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161020.csv.xz
+	execute: Periodic data update on 2016-10-20(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/601888e3eec708f0d9462d3ebd89f628e9e53bec
+
+1# Release 20161019-01
+
+### New seed data
+
+* seed/neologd-common-noun-ortho-variant-dict-seed.20161017.csv.xz, seed/neologd-proper-noun-ortho-variant-dict-seed.20161017.csv.xz
+	execute: Delete many entries which cause an analysis error
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/54b9b7e9c44a68c93ffdc1ad6c53c022c90501fd
+
+* seed/neologd-ill-formed-words-dict-seed.20161019.csv.xz
+	execute: Add a seed data of ill formed words which are used on Microblogs
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/20fb0cce0b2f6f6c164af2586f249f809dbec263
+
+# Release 20161017-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161017.csv.xz
+	execute: Periodic data update on 2016-10-17(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fc7b6cb90e1757db25ab6dd836d3ff1f43c28406
+
+# Release 20161013-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161013.csv.xz
+	execute: Periodic data update on 2016-10-13(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ce11d7ba5823eb5cce9015498789cba3e87b8910
+
+# Release 20161010-01
+
+### New seed data
+
+* seed/mecab-user-dict-seed.20161010.csv.xz
+	execute: Periodic data update on 2016-10-10(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f02bf530a6c97277fc26ab0bcd35fb5e4ababda1
+
+# Release 20161006-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20161006.csv.xz
+	execute: Periodic data update on 2016-10-06(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d82e80dd49a6d27b7fc247fd4e0ff92b856d74eb
+
+# Release 20161003-01
+
+### New seed data
+
+* seed/neologd-quantity-infreq-dict-seed.20161003.csv.xz, seed/neologd-date-time-infreq-dict-seed.20161003.csv.xz
+	execute: Add seed data file of infrequent entries of datetime/quantity type of named entity
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bf836c13d9f432893b494c4a33936c6a98107d28
+
+
+* seed/mecab-user-dict-seed.20161003.csv.xz
+	execute: Periodic data update on 2016-10-03(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7c84e62588b359077f9932c78309c2e6ac34a33e
+
+# Release 20160929-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160929.csv.xz
+	execute: Periodic data update on 2016-09-29(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e7d6b99ef9b28d528b32fc1ad3914ae347f4032b
+
+# Release 20160926-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160927.csv.xz
+	execute: Periodic data update on 2016-09-26(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/36e5cce24fc117bf3fc334b544039b12bf0a747a
+
+# Release 20160922-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160922.csv.xz
+	execute: Periodic data update on 2016-09-22(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d4eabafb3e5544596f863ac179d23745cf3a82b1
+
+# Release 20160919-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160919.csv.xz
+	execute: Periodic data update on 2016-09-19(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a03b2ef0dd0576127f4a2bee729878a4ee4a5463
+
+# Release 20160915-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160915.csv.xz
+	execute: Periodic data update on 2016-09-15(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f8cc4d859e3761e6963e0e8576bd36d1bd202be3
+
+# Release 20160912-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160912.csv.xz
+	execute: Periodic data update on 2016-09-12(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ce71ede715b0d398db8570e41fc4a0c976e53d01
+
+# Release 20160908-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160908.csv.xz
+	execute: Periodic data update on 2016-09-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1b2b7a46aaaab263b52069c67188c0a7ea1f5039
+
+# Release 20160905-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160905.csv.xz
+	execute: Periodic data update on 2016-09-05(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c45e7df400c19a1147ca49e3087723c209eb0609
+
+# Release 20160901-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160902.csv.xz
+	execute: Periodic data update on 2016-09-01(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/96ed2e9b84f7816a02966cfcb1b95df2bd14f739
+
+# Release 20160829-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160829.csv.xz
+	execute: Periodic data update on 2016-08-29(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0f13d67c9d1d1dcc2885b02a1208219a1e4b8dab
+
+# Release 20160826-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160826.csv.xz
+	execute: Periodic data update on 2016-08-26(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c67fc6db80abb2a7a2b0a16d2f52fc6ea0bd1baf
+
+# Release 20160822-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160822.csv.xz
+	execute: Periodic data update on 2016-08-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/19c514614af3a7c3c35ffea697295d6b625b2c7c
+
+# Release 20160819-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160818.csv.xz
+	execute: Periodic data update on 2016-08-18(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/32ef9fac70d05bb186178039d3273f88576bf431
+
+# Release 20160815-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160815.csv.xz
+	execute: Periodic data update on 2016-08-15(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a2c5b1c58b606d479efe7ef595c147b37e876524
+
+# Release 20160812-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160812.csv.xz
+	execute: Periodic data update on 2016-08-11(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2b681f287d08c9df54e95942dd0f08659208f7cc
+
+# Release 20160808-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160808.csv.xz
+	execute: Periodic data update on 2016-08-08(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a5b5651f8266c3bdcc2049788700d6167a766a9d
+
+# Release 20160804-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160804.csv.xz
+	execute: Periodic data update on 2016-08-04(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/509095e84d4dfec96601d5f165e8c30d05dd6373
+
+# Release 20160802-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160801.csv.xz
+	execute: Periodic data update on 2016-08-01(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/cceff94e3077a8ab2c8433269f34e56705a51927
+
+# Release 20160728-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160728.csv.xz
+	execute: Periodic data update on 2016-07-28(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ef49e894ea1e7cfd8720f6038cfc9819eebbb2ba
+
+# Release 20160726-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160725.csv.xz
+	execute: Periodic data update on 2016-07-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3d29261ad784d6a02491fb47a12459582a68183d
+
+# Release 20160721-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160721.csv.xz
+	execute: Periodic data update on 2016-07-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/051b7c668c98fcab79c7e9c3e795edc742939392
+
+# Release 20160718-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160718.csv.xz
+	execute: Periodic data update on 2016-07-18(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2cf49d8e68f474f5b68599bb4d6c4e0a02ad0195
+
+# Release 20160714-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160714.csv.xz
+	execute: Periodic data update on 2016-07-14(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3b41c1d3da0e5e3b90c0b7eb56246c4790cdb98e
+
+# Release 20160711-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160711.csv.xz
+	execute: Periodic data update on 2016-07-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/61c37a126b79cddf9767f8968e427ae79eee6146
+
+# Release 20160707-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160707.csv.xz
+	execute: Periodic data update on 2016-07-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/03b3ff7822e663e6ceb5ccd19ce54b3ca2210b1d
+
+# Release 20160704-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160704.csv.xz
+	execute: Periodic data update on 2016-07-04(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/364e0c4b6e2f460b07c5f087204b47958d494981
+
+# Release 20160630-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160630.csv.xz
+	execute: Periodic data update on 2016-06-30(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a7a64dd2b0ca495bd0e4e2afe460216c9e6f35d3
+
+# Release 20160627-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160627.csv.xz
+	execute: Periodic data update on 2016-06-27(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/be172e3887814ed8f7f4412c79baa067781938e5
+
+# Release 20160623-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160624.csv.xz
+	execute: Periodic data update on 2016-06-23(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/37a4ad5be885fb8b9e822ff87be53c6a5fce85c3
+
+# Release 20160620-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160620.csv.xz
+	execute: Periodic data update on 2016-06-20(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9fceec0638d6a26e76e2cfac2b0208d877145c22
+
+# Release 20160616-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160616.csv.xz
+	execute: Periodic data update on 2016-06-16(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7fad237a5f58724b078a0deb6eef2b13a1b0147d
+
+# Release 20160613-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160613.csv.xz
+	execute: Periodic data update on 2016-06-13(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9fceec0638d6a26e76e2cfac2b0208d877145c22
+
+# Release 20160609-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160609.csv.xz
+	execute: Periodic data update on 2016-06-09(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/deb9bc7eb15714c3c9e4dceea3a5aa1381cae585
+
+# Release 20160606-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160606.csv.xz
+	execute: Periodic data update on 2016-06-06(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/96cecdaebc0479e750d5f30b9b9caae3c48c10e0
+
+# Release 20160602-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160602.csv.xz
+	execute: Periodic data update on 2016-06-02(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0ad2c7313e62f5e745eb4e32015d6394a4f611be
+
+# Release 20160530-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160530.csv.xz
+	execute: Periodic data update on 2016-05-30(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3f3b2ef29fd795310fc397997f2d908d1c4af501
+
+# Release 20160526-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160526.csv.xz
+	execute: Periodic data update on 2016-05-26(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b540f0b35fab9d723ae66f2c965bc5882c821b58
+
+# Release 20160523-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160524.csv.xz
+	execute: Periodic data update on 2016-05-23(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2d46a2fc9bc8efc90a93c74f024dd408a88eb582
+
+# Release 20160519-02
+
+### New feature
+*  misc/patch/*.csv.20160519.diff
+	execute: Remove some noun from a list of proper noun
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dd9373de5c82d28cb7d94a702cd5468b117bf415
+
+# Release 20160519-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160519.csv.xz
+	execute: Periodic data update on 2016-05-19(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0a0f2053f6b97d5d81a695e6902de1c9b5310919
+
+# Release 20160516-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160516.csv.xz
+	execute: Periodic data update on 2016-05-16(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e389458801067270068844884c46e119751e6505
+
+# Release 20160512-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160512.csv.xz
+	execute: Periodic data update on 2016-05-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/df5f5568a89719082a82c97f28cbbfcd3e44d1c6
+
+# Release 20160509-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160509.csv.xz
+	execute: Periodic data update on 2016-05-09(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5722541f09f49573c735e1f8f67ea3d1852b2ea7
+
+# Release 20160505-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160505.csv.xz
+	execute: Periodic data update on 2016-05-05(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/630caf31a7e2acd7b4372870442c917559431921
+
+# Release 20160502-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160502.csv.xz
+	execute: Periodic data update on 2016-05-02(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/61d76fe73f5ed819e62c8a73e43fff156b984d07
+
+# Release 20160428-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160428.csv.xz
+	execute: Periodic data update on 2016-04-28(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/59b29b11ea61a4d02fac4b2e5443391d5e0d05ef
+
+# Release 20160425-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160425.csv.xz
+	execute: Periodic data update on 2016-04-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/25d1a4f1f12ff5f9d4b74d9cc5e9e0430bb35444
+
+# Release 20160421-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160421.csv.xz
+	execute: Periodic data update on 2016-04-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1d6a72549e6d702229577bb2f6d8ced63536e59f
+
+### New feature
+*  misc/patch/*.csv.20160421.diff
+	execute: Add patch files to replace Zenkaku alphabet & number characters with Hankaku characters
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/10ef172448c8bb2cdadbd8a2a2289beb47086dad
+
+# Release 20160418-01
+
+### New feature
+* bin/install-mecab-ipadic-neologd
+	execute: Add --extend-column option
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/12eda615badbd0e21bc0fd2dbff42a7182abbbc6
+
+### New seed data
+* seed/mecab-user-dict-seed.20160418.csv.xz
+	execute: Periodic data update on 2016-04-18(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1d6a72549e6d702229577bb2f6d8ced63536e59f
+
+# Release 20160414-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160414.csv.xz
+	execute: Periodic data update on 2016-04-14(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c01f0c2aee281dad46fab93feb5a692057f77bda
+
+# Release 20160411-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160411.csv.xz
+	execute: Periodic data update on 2016-04-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/955f04e5b47f78c3b0a7ea125b86014b1d6ef4d2
+
+# Release 20160407-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160407.csv.xz
+	execute: Periodic data update on 2016-04-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dd957985214dd1861e978db5779aef85bb9c5394
+
+# Release 20160404-01
+
+### New features
+* misc/patch/Noun.csv.20160404.diff
+	execute: Add patch file to fix some entries of IPADIC
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/70dc6730be9570bdc16b11b5121519a694e53b6c
+
+### New seed data
+* seed/mecab-user-dict-seed.20160404.csv.xz
+	execute: Periodic data update on 2016-04-04(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b27c3145ac39c6bf2805d7c1980bc638d7ba687b
+
+# Release 20160331-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160331.csv.xz
+	execute: Periodic data update on 2016-03-31(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/03679cca8cafe42ed1ff6388ad914fd96b9f1c7f
+
+# Release 20160328-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160328.csv.xz
+	execute: Periodic data update on 2016-03-28(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/92bd0fff55ef09dd6337fad27e453bc5aeab66f9
+
+# Release 20160324-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160324.csv.xz
+	execute: Periodic data update on 2016-03-24(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/00132e159e14ecbede233c562a5057939c7d5545
+
+### Update seed data
+* seed/neologd-adjective-verb-dict-seed.20160324.csv.xz
+	execute: Update algorithm to generate orthographical variant sequences
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/079eed121f87d6e1773d9931ac9aed46ce92e298
+
+# Release 20160323-01
+
+### Update seed data
+* seed/neologd-noun-sahen-conn-ortho-variant-dict-seed.20160323.csv.xz
+	execute: Update algorithm to generate orthographical variant sequences
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a28fe973766b2cec5344b314e7c9282bd3c38562
+
+* seed/neologd-common-noun-ortho-variant-dict-seed.20150323.csv.xz
+	execute: Update algorithm to generate orthographical variant sequences
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/318465077f2fce04cb1489e6ee8d75a0b23e4b34
+
+# Release 20160322-01
+
+### Update seed data
+* seed/neologd-noun-sahen-conn-ortho-variant-dict-seed.20160322.csv.xz
+	execute: Update algorithm to generate orthographical variant sequences
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0e0ecf6cdcf45329f086b6d5becad91e86640835
+
+* seed/neologd-common-noun-ortho-variant-dict-seed.20150322.csv.xz
+	execute: Update algorithm to generate orthographical variant sequences
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/196a8b480bbac61b6fd1a62889831de60d9c17c8
+
+# Release 20160321-01
+
+### Update seed data
+* seed/neologd-common-noun-ortho-variant-dict-seed.20150318.csv.xz
+	execute: Fix algorithm to generate orthographical variant sequences
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4db6b3f54afc387546e7662b859d49b53fff7821
+
+### New seed data
+* seed/mecab-user-dict-seed.20160321.csv.xz
+	execute: Periodic data update on 2016-03-21(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6463c22d238ce484583e4fb5419fad713f8db250
+
+# Release 20160317-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160317.csv.xz
+	execute: Periodic data update on 2016-03-17(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2d177c2905f5fbfde47d645ad7ec3d5fde1d955d
+
+# Release 20160314-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160314.csv.xz
+	execute: Periodic data update on 2016-03-14(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7e796d96ca33d395066bfe1761a63e5ad6053a6b
+
+# Release 20160310-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160310.csv.xz
+	execute: Periodic data update on 2016-03-10(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/5c0634b2a047a02706c97b552de7d15acb23c2ec
+
+# Release 20160307-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160307.csv.xz
+	execute: Periodic data update on 2016-03-07(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9bd8ab77f343f6c53dafea6c8445e3a254c28117
+
+# Release 20160303-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160303.csv.xz
+	execute: Periodic data update on 2016-03-03(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6e2eb85efc88056e5440267b645df0ac1f3dda78
+
+# Release 20160229-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160229.csv.xz
+	execute: Periodic data update on 2016-02-29(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/47684a5598cefd8e079d73c8bb4b5606c8c649d9
+
+# Release 20160225-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160225.csv.xz
+	execute: Periodic data update on 2016-02-25(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b23ff0e7f55987ee8f53c761ada7c8f5c555c8eb
+
+# Release 20160222-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160222.csv.xz
+	execute: Periodic data update on 2016-02-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9ebb547fee596ed12a78c31efd745857cfc47a6b
+
+# Release 20160218-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160218.csv.xz
+	execute: Periodic data update on 2016-02-18(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bbdfab17fe8cae89a7bfef40da4e248bf8ddfee6
+
+# Release 20160215-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160215.csv.xz
+	execute: Periodic data update on 2016-02-15(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1658b0405ba2386607ed2962e554ed000d83445f
+
+# Release 20160212-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160212.csv.xz
+	execute: Periodic data update on 2016-02-11(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d00b401cf617aad70ceba1b800a8d932df5e1c01
+
+# Release 20160209-01
+
+### Update seed data
+* seed/neologd-noun-sahen-conn-ortho-variant-dict-seed.20160209.csv.xz
+	execute: Update seed paths to delete some wrong tokens
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3a37fbec0649e7ee8282cea1e10d7e63cf30034d
+
+* seed/neologd-common-noun-ortho-variant-dict-seed.20150209.csv.xz
+	execute: Update seed paths to delete some wrong tokens
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7f3c38739f61b1347b62ba7b4b057efd703ea3a6
+
+# Release 20160208-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160208.csv.xz
+	execute: Periodic data update on 2016-02-08(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1adfceee35ac729bd160bc3856edd1abef490bb0
+
+# Release 20160205-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160205.csv.xz
+	execute: Delete entries of a string that expressed a unit
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/998e5697e98f7fbcadf3af0afceb85ad476696dc
+
+# Release 20160204-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160204.csv.xz
+	execute: Periodic data update on 2016-02-04(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fa2d9578b82546f5b06c62118585151d1c231887
+
+# Release 20160202-01
+
+### Update seed data
+* seed/neologd-noun-sahen-conn-ortho-variant-dict-seed.20160202.csv.xz
+	execute: Update a dictionary file of orthographical variants of nouns used as verb form
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/40bda15703aed18f15e21f957d4991c72b2cc090
+
+* seed/neologd-common-noun-ortho-variant-dict-seed.20150202.csv.xz
+	execute: Update a dictionary file of orthographical variants of common nouns
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d92b3217a05d55098b2169bffc00ba2233ec472d
+
+# Release 20160201-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160201.csv.xz
+	execute: Periodic data update on 2016-02-01(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/3acc3dad6c22917c7528eda4400b3cd0afb794c1
+
+# Release 20160128-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160128
+	execute: Periodic data update on 2016-01-28(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/80622bfbde5a30e2bf936ff182d493034606ee95
+
+# Release 20160125-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160125.csv.xz
+	execute: Periodic data update on 2016-01-25(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7f307dbc7f430c5320178e48b8eb24d2afb581ab
+
+* seed/neologd-noun-sahen-conn-ortho-variant-dict-seed.20160125.csv.xz
+	execute: Add a dictionary file of orthographical variants of nouns used as verb form
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/da37a98d2cc47a049c0a4e4a701c5780846b7822
+
+# Release 20160121-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160121.csv.xz
+	execute: Periodic data update on 2016-01-21(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fc48ab89487224e4a96bfaa578471e7b2be76f67
+
+# Release 20160118-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160118.csv.xz
+	execute: Periodic data update on 2016-01-18(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e8ea616f7e6ab7edd6018a2b4f6d3540cbef0c4f
+
+# Release 20160114-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160114.csv.xz
+	execute: Periodic data update on 2016-01-14(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9c70a19a47247b2e3e0cf2bb37ff80f524dcdd8b
+
+# Release 20160111-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160111.csv.xz
+	execute: Periodic data update on 2016-01-11(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4e5f09df1ac31bc305e269c33d0d003b451aac79
+
+# Release 20160107-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160107.csv.xz
+	execute: Periodic data update on 2016-01-07(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/70444c17d9486f15265e7ca3dceadedec0748a4f
+
+# Release 20160104-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20160104.csv.xz
+	execute: Periodic data update on 2016-01-04(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a6dfaf5f4ce3663d1f02d6cbca70d9d63bc5fb5f
+
+# Release 20151231-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151231.csv.xz
+	execute: Periodic data update on 2015-12-31(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/19ee3e46fdd6a0c9517aff3149e9d1de25570db2
+
+# Release 2015128-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151228.csv.xz
+	execute: Periodic data update on 2015-12-28(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ab681cdcbf33c910c103ad8231ec07bbb4ded9b8
+
+# Release 20151224-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151224.csv.xz
+	execute: Periodic data update on 2015-12-24(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/83ccc10701afd704af38fd02829dc5d922fd6835
+
+# Release 20151221-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151221.csv.xz
+	execute: Periodic data update on 2015-12-21(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ab681cdcbf33c910c103ad8231ec07bbb4ded9b8
+
+# Release 20151217-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151217.csv.xz
+	execute: Aperiodic data update on 2015-12-17(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2307350e953b74c8d0e1de1a163d2d8e8025bbc8
+
+# Release 20151214-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151214.csv.xz
+	execute: Aperiodic data update on 2015-12-14(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6204dba4729058942c38b1a04917af2389d87e22
+
+# Release 20151210-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151210.csv.xz
+	execute: Aperiodic data update on 2015-12-10(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/7e98d671f17ad6ed8bb9116f10fdb9648da162a1
+
+# Release 20151208-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151208.csv.xz
+	execute: Aperiodic data update on 2015-12-08(Tue)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/399a636a03baf0075ed4e25cdeefdcdaed3538f9
+
+# Release 20151207-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151207.csv.xz
+	execute: Aperiodic data update on 2015-12-07(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/997f0258c306e52ee3f2a940de183a762fbf64b0
+
+# Release 20151203-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151203.csv.xz
+	execute: Aperiodic data update on 2015-12-03(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/500421bca0216edc28e05d222f83cf7e3aaa0fe1
+
+# Release 20151130-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151130.csv.xz
+	execute: Aperiodic data update on 2015-11-30(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a028b64517f651c02981b77d6d1c7ad71bd3b054
+
+# Release 20151126-02
+
+### New seed data
+* seed/mecab-user-dict-seed.20151126.csv.xz
+	execute: Aperiodic data update on 2015-11-26(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d63c7b05885bd76f05796393110485e32a0e0184
+
+### Update seed data
+* seed/neologd-adjective-exp-dict-seed.20151126.csv.xz, seed/neologd-adjective-std-dict-seed.20151126.csv.xz
+	execute: Update value of cost field of adjective entries
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f5e752f0cfc9531d9520704d8d56791ff5c7b282
+
+# Release 20151126-01
+
+### New seed data
+* seed/neologd-adjective-exp-dict-seed.20151126.csv.xz, seed/neologd-adjective-std-dict-seed.20151126.csv.xz
+	execute: Update seed files of orthographical variant of an adjective
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/17cb5c07581be93b4784e77a5d3c39d6d1483e3d
+
+# Release 20151125-01
+
+### New seed data
+* seed/neologd-adjective-exp-dict-seed.20151125.csv.xz
+	execute: Add seed file to tokenize infrequent orthographical variant of an adjective
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/efedcfad65227df463c04328466d2942e9d38856
+
+* seed/neologd-adjective-std-dict-seed.20151125.csv.xz
+	execute: Add seed file to tokenize infrequent orthographical variant of an adjective
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fa01cdd2c13732c91247e8a144ba561dedb8da5d
+
+# Release 20151123-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151123.csv.xz
+	execute: Aperiodic data update on 2015-11-23(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f52f4281458ee63280c6826e8b31f66414da1949
+
+# Release 20151119-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151119.csv.xz
+	execute: Aperiodic data update on 2015-11-19(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1317f62fb6a8f5a2022c8fe902e07f6222962c96
+
+# Release 20151116-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151116.csv.xz
+	execute: Aperiodic data update on 2015-11-16(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/77c1275a96bee1c153402d2abf60ef5f2bc6d532
+
+# Release 20151112-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151112.csv.xz
+	execute: Aperiodic data update on 2015-11-12(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4ca7442a381bc8cd2e08e120bdcf63be4938b6fb
+
+# Release 20151110-01
+
+### New seed data
+* seed/neologd-noun-ortho-variant-dict-seed.20151110.csv.xz
+	execute: Add many entries of general noun written in Hiragana or Katakana
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bfa776fdb1859bad45f87bbd329eedf81516e432
+
+# Release 20151109-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151109.csv.xz
+	execute: Aperiodic data update on 2015-11-09(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/25e7e84a99e6990d717500dc42471972709a8f53
+
+# Release 20151105-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151105.csv.xz
+	execute: Aperiodic data update on 2015-11-05(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/28b8a7af3479d485a9538e1d43593eb3ab5f194d
+
+# Release 20151102-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151102.csv.xz
+	execute: Aperiodic data update on 2015-11-02(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ba13e1b13c087baf8e34a627d082388a16e0d4a1
+
+# Release 20151029-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151029.csv.xz
+	execute: Aperiodic data update on 2015-10-29(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fc22915722b1ccc2a9f9cf75c2f74d7d53328f5c
+
+# Release 20151026-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151026.csv.xz
+	execute: Aperiodic data update on 2015-10-26(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f12e90cc3a93d00ecf980779377b53e880fc3ca3
+
+# Release 20151022-02
+
+### Add new process
+* libexec/make-mecab-ipadic-neologd.sh
+	execute: Add process to delete the entry whose surface/base-form is shorter/longer than optional length
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/64435d34a2518cd1cf9eb214989471479606cd43
+
+### Update seed data
+* seed/neologd-interjection-dict-seed.20151022.csv.xz
+	execute: Fix POS information (thanks @kazuhira_r & @moco_beta)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9dae8af1da60c5be448b686d803c1a8d8fe271ab
+
+# Release 20151022-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151022.csv.xz
+	execute: Aperiodic data update on 2015-10-22(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fc22915722b1ccc2a9f9cf75c2f74d7d53328f5c
+
+# Release 20151019-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151019.csv.xz
+	execute: Aperiodic data update on 2015-10-19(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ec76766dda40519ad6781283c8b363433492227d
+
+# Release 20151015-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151015.csv.xz
+	execute: Aperiodic data update on 2015-10-15(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0a4427fd9fc3dce04e5202a9e95f6d841d2d9cd3
+
+# Release 20151013-01
+
+### New seed data
+* seed/seed/neologd-noun-ortho-variant-dict-seed.20151013.csv.xz
+	execute: Add a seed file of orthographical variant of common noun
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/102e94c55a04a5d56487b2206e572bc70c0e2a24
+
+# Release 20151008-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151008.csv.xz
+	execute: Aperiodic data update on 2015-10-08(Thu)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b8a0e3f0fddf638163ab0e76845503dbf8cc4e84
+
+# Release 20151005-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151005.csv.xz
+	execute: Aperiodic data update on 2015-10-05(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f293b2aeaf606c949e8a14b676965e77d3320023
+
+# Release 20151002-01
+
+### New seed data
+* seed/neologd-interjection-dict-seed.20151002.csv.xz
+	execute: Add the seed data file of interjection words
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/75ad1eab01c40ec9d87b5de2eea907c8c57c173d
+
+# Release 20151001-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20151001.csv.xz
+	execute: Aperiodic data update on 2015-10-01
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9a441ef38a7b1315846671c768b10ab04f902521
+
+# Release 20150928-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150928.csv.xz
+	execute: Aperiodic data update on 2015-09-28(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/631498c56a17a154627ede5876e914cdc3da8d2d
+
+# Release 20150925-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150925.csv.xz
+	execute: Aperiodic data update on 2015-09-25(Fri)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4eab1db96dc7bd0befa81adede38bf5babe458fe
+
+# Release 20150922-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150922.csv.xz
+	execute: Aperiodic data update on 2015-09-22(Mon)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9d4964e5dcafa27cd44ecbc6e526f932a0514019
+
+# Release 20150918-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150918.csv.xz
+	execute: Aperiodic data update on 2015-09-18
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a6a0401ed5f431de50402fcef4a28645548165d9
+
+# Release 20150915-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150915.csv.xz
+	execute: Aperiodic data update on 2015-09-15
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/80864a07180e8822b73b5b9f0459f07962fc1512
+
+# Release 20150913-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150913.csv.xz
+	execute: Aperiodic data update on 2015-09-13
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/570ba29fb97ac190240f63a0f3f12e09f0ef5a2a
+
+# Release 20150912-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150912.csv.xz
+	execute: Aperiodic data update on 2015-09-12
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a30c866d9d325713b12fe9520f7d1ab4f1eb3bda
+
+# Release 20150907-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150907.csv.xz
+	execute: Aperiodic data update on 2015-09-07
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f1af1807f8191145edb6a132388ae47cd1153613
+
+# Release 20150905-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150905.csv.xz
+	execute: Aperiodic data update on 2015-09-05
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/cc0d9614f7855c40a50d281c0080e6686e384372
+
+# Release 20150903-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150903.csv.xz
+	execute: Aperiodic data update on 2015-09-03
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/844434afdb361c72c4912829e412669fc75f631c
+
+# Release 20150901-01
+
+### New features
+* seed/mecab-user-dict-seed.20150901.csv.xz
+	execute: Periodic data update on 2015-09-01
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/72e17f35c55d6947758f809ff419952d3468d1fe
+
+# Release 20150827-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150827.csv.xz
+	execute: Aperiodic data update on 2015-08-27
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/03a043fab4af13650f0f919c6ff5fef4003316a4
+
+# Release 20150824-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150824.csv.xz
+	execute: Aperiodic data update on 2015-08-24
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/69b5e5bbd31e6dea8c67bb84c6426f0d6bb2055a
+
+# Release 20150822-01
+
+### New features
+* seed/mecab-user-dict-seed.20150822.csv.xz
+	execute: Add many fashion brand names
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9dc89b2e64e866fef2b535ff4b9ea1c2abf43db0
+
+# Release 20150821-02
+
+### New features
+* seed/mecab-user-dict-seed.20150821.csv.xz
+	execute: Add many fashion brand names (thanks kimoto)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/84bed2b1a103920b4d10b801ad02c8c7e960bc1b
+
+# Release 20150821-01
+
+### Bug fixes
+* bin/install-mecab-ipadic-neologd
+	issue: https://github.com/neologd/mecab-ipadic-neologd/issues/4
+	execute: Fix the code about checking an update information of remote repository using 'git log' (thanks hidekuro)
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fb388c9ba92dca62c28e8f63297dd9cbeb9fee54
+
+# Release 20150817-01
+
+### New features
+* seed/mecab-user-dict-seed.20150817.csv.xz
+	execute: Periodic data update on 2015-08-17
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e37daf9e0635d9f99d3ac6bf81b8e53f1ed3b973
+
+# Release 20150810-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150810.csv.xz
+	execute: Aperiodic data update on 2015-08-10
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d8d0ac20d38f3f7314911b30f06552c676406f1f
+
+# Release 20150805-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150805.csv.xz
+        execute: Improve a value of cost column of many entries of a seed file
+        commit: https://github.com/neologd/mecab-ipadic-neologd/commit/6e5c56d059a436044f1f0e8d6d1b5b272ce6aa23
+
+# Release 20150803-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150803.csv.xz
+        execute: Periodic data update on 2015-08-03
+        commit: https://github.com/neologd/mecab-ipadic-neologd/commit/847bb41c69f6638c52aa443b70e7e02f6c4f7b55
+
+# Release 20150723-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150723.csv.xz
+	execute: Aperiodic data update on 2015-07-23
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/bea927a94821b38338e27aa8f4ea629fc64c3576
+
+# Release 20150716-01
+
+### New features
+* seed/mecab-user-dict-seed.20150716.csv.xz
+	execute: Periodic data update on 2015-07-16
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/ff21846686f579a07b8ec24c128e7a9d380ea6c2
+
+# Release 20150709-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150709.csv.xz
+	execute: Aperiodic data update on 2015-07-09
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/988df8b7a7c733c52996ecdd6c9b968d44be50df
+
+# Release 20150702-01
+
+### New features
+* seed/mecab-user-dict-seed.20150702.csv.xz
+	execute: Periodic data update on 2015-07-02
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d44b343c856afe7e128dccbe71bdb3db07b406a2
+
+# Release 20150624-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150624.csv.xz
+	execute: Add many entries whose surface field has word boundaries using the character of half width space
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e494d2ef55f08aa8639e64cd5e6afcbf620c2acf
+
+# Release 20150623-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150623.csv.xz & seed/neologd-adverb-dict-seed.20150623.csv.xz
+	execute: Aperiodic data update on 2015-06-23
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/d0517c77e96721d2c5e38b3fb7c55dd07ea9de4b
+
+# Release 20150618-01
+
+### New features
+* seed/neologd-adverb-dict-seed.20150618.csv.xz
+	execute: Add seed file of adverb entries
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/93ea2726c031aecc0c57d24b112705f7f8149fea
+
+* bin/install-mecab-ipadic-neologd
+	execute: Add process to install the seed file of adverb entries
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e0082ad45a1fa80e573161dadddd6ec66100f6f7
+
+* libexec/make-mecab-ipadic-neologd.sh
+	execute: Add process to install the seed file of adverb entries
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/23ae2723ad4ac2c759ed7347c9307f8d2df9b083
+
+# Release 20150616-01
+
+### New features
+* seed/mecab-user-dict-seed.20150616.csv.xz
+	execute: Periodic data update on 2015-06-16
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/c2b10a3468bfcd9708bb2fa42e559f359acf2d4c
+
+# Release 20150609-01
+
+### New features
+* misc/patch/*.csv.20150609.diff
+	execute: Add patch file to fix yomigana field of rows of IPA dictionary
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/69e49c05d78069fb1926df7dbc68575a6dcc8d99
+
+* libexec/make-mecab-ipadic-neologd.sh
+	execute: Add process to fix yomigana field of rows of IPA dictionary
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/87ae70de94d771ffbcf794cddaef0c147bf3497b
+
+# Release 20150608-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150608.csv.xz
+	execute: Aperiodic data update on 2015-06-08
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/4a1499b6dfb2e2534a1ea3ad6a618a0f1e3ed6ee
+
+# Release 20150601-01
+
+### New features
+* seed/mecab-user-dict-seed.20150601.csv.xz
+	execute: Periodic data update on 2015-06-01
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2b0c42362353873e3716c52169460ecedbd94cbc
+
+# Release 20150526-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150526.csv.xz
+	Fix the cost field of entries of Unicode emoji because cost values were higher than max range of short value
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/b35bf54a0e78c0b32dead2f1d583420cff18c518
+
+# Release 20150521-01
+
+### New features
+* seed/mecab-user-dict-seed.20150521.csv.xz
+	Add entries of emoji symbols of Unicode 6.0 or less
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/0c9b253ecd16f01fced7e1921ac138d43be648b4
+
+# Release 20150518-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150518.csv.xz
+	execute: Periodic data update on 2015-05-18
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/8c6832e71a5e62a313aaa61e8c0e7ec2ce024e77
+
+# Release 20150508-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150508.csv.xz
+	execute: Aperiodic data update on 2015-05-08
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dd75ea1a609acefbe8378c97f6e88bf790eb32f4
+
+# Release 20150501-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150501.csv.xz
+	execute: Periodic data update on 2015-05-01
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/10b6deb8c5e03c64ae4eea0f856a76059cfb60c2
+
+# Release 20150428-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150428.csv.xz
+	Remove rows which have yomigana of string of a number
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/47b38f46562f811dcd619fcb2a7b916e62dba672
+
+# Release 20150426-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150426.csv.xz
+	Remove entries which are combination of a verb and an auxiliary verb
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/63b0675107fe57aab0fa8903338452fc51ce8103
+
+# Release 20150424-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150424.csv.xz
+	Fix the yomi field of many entries of the seed file
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a04b4700884e9fda51180e4b8df37b19d0dfad6b
+
+# Release 20150419-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150419.csv.xz
+	Delete the rows that don't contain the kana-characters that are included in the surface notation to yomi
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/43842c24eb28f2b1cee869ee957bac256f16a529
+
+# Release 20150418-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150418.csv.xz
+	Delete the rows which are the word which was combined a verb and a conjunctive particle
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/01cba26ce3c1371b311dcf9b52d0dd4b290ae29a
+
+# Release 20150416-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150416.csv.xz
+	execute: Periodic data update on 2015-04-16
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/546c4b5e0e2ff335ee0286d55f114da45a7b67bc
+
+# Release 20150413-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150413.csv.xz
+	Delete rows with a field that does not contain any katakana
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/9d7fc9c5dc0581bf8c6fabd48e0f270a4ecb1cd9
+
+# Release 20150408-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150408.csv.xz
+	execute: aperiodic data update on 2015-04-08
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/f4813cba272620aa5197786fadfb28671e154f4a
+
+# Release 20150401-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150401.csv.xz
+	execute: periodic data update on 2015-04-01
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/93366ba944435c6727d15779e967111ad994683a
+
+# Release 20150327-01
+
+### New features
+* bin/install-mecab-ipadic-neologd; Add '--create_user_dic' option
+	To create an user dictionary using the a seed data of mecab-ipadic-neologd
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/2c032c66c1b6dfde6b10ab9c6e147144ce11e36c
+
+# Release 20150324-01
+
+### New release
+* releases/tag/v0.0.1
+	We release the tag for mainly research purpose.
+	release: https://github.com/neologd/mecab-ipadic-neologd/releases/tag/v0.0.1
+
+### New seed data
+* seed/mecab-user-dict-seed.20150324.csv.xz
+	Update to create the tag for v0.0.1
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/e045fcab425f84eb7e441976eb11d26f58755ef2
+
+# Release 20150323-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150323.csv.xz
+	Update to apply all of normalized rules to the surface column and the base form column
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/73ce180e25aa7b951ef09eb83bba1835d43ef45e
+
+# Release 20150319-01
+
+### Bug fixes
+* seed/mecab-user-dict-seed.20150319.csv.xz
+	Fix to reduce the side effects about a single noun with kana
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/dbff045adcada8b537baf40a0567f88c2d372a4e
+
+# Release 20150317-01
+
+### New seed data
+* seed/mecab-user-dict-seed.20150317.csv.xz
+	execute: aperiodic data update on 2015-03-17
+
+### New features
+* bin/install-mecab-ipadic-neologd; Add '-n' option
+	To save time to git pull.
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/de491941b5a5b0a1c0a1ad23f2ccd3ed8f937c6e
+
+* bin/install-mecab-ipadic-neologd; Add '-max_surface_length' option and '--min_surface_length' option
+        To delete the entries from seed file based on surface length of a entry.
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/1cc51e5faf12b7b947e39657a59e956a5cb8db9b
+
+* bin/install-mecab-ipadic-neologd; Add '-max_baseform_length' option and '--min_baseform_length' option
+        To delete the entries from seed file based on base form length of a entry.
+	report: http://d.hatena.ne.jp/Kazuhira/20150316/1426520209
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/257cd257e45f96892d4823cdb05c8cd4c58c4756
+
+### Bug fixes
+* libexec/test-mecab-ipadic-neologd.sh: Fix to delete temporal files from /tmp
+	To save time to patch.
+	report: http://d.hatena.ne.jp/hjym_u/20150315/1426380897
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/fb0f9fa1024c1cc15dd791102d8ba6ca2a43f37c
+
+* libexec/make-mecab-ipadic-neologd.sh: xargs can't get too long file path
+	To save time to patch.
+	report: http://d.hatena.ne.jp/hjym_u/20150315/1426380897
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/a4ae4efdcf41e3f6aadfaf0bf263d01839ba6c31
+
+# Release 20150316-01
+
+### Bug fixes
+* seed/*.xz: Fix bug about context id and check the uniqeness of context id to POS information
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/86b3157fb06b13f20bc102e4a974ded89f4db5d1
+
+# Release 20150315-01
+
+### Bug fixes
+* seed/*.xz: Fix context ids & POS info
+	report: http://d.hatena.ne.jp/Kazuhira/20150315/1426391366
+	commit: https://github.com/neologd/mecab-ipadic-neologd/commit/121699611563da654d6ec2ca2b904d1fffea80ec

@@ -1,7 +1,7 @@
 <?php
 session_start();
 session_regenerate_id(true);
-ini_set('memory_limit', '2048M');
+ini_set('memory_limit', '1500M');
 ?>
 <!DOCTYPE HTML>
 <html lang="ja">
@@ -22,6 +22,8 @@ $igo = new Igo('ipadic', 'UTF-8');
 $api_key = "KFYqe6m5v6BMw3nt5U9lQtfIX";
 $api_secret = "5vIVRCjtOSA3RD9rWCTzV7CDYifnTzVLtMO26IvPR41TiVQC6B";
 $callback_url = "http://127.0.0.1/twitterAPI/hometimeline.php";
+
+$_SESSION["oauth_token_secret"] = '';
 
 if(isset($_GET["oauth_token"]) || isset($_GET["oauth_verifier"])){
     $query = getAccessToken($api_key, $api_secret);

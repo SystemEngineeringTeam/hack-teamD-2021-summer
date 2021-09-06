@@ -1,0 +1,15 @@
+<?php
+require_once 'igo-php-0.1.7/lib/Igo.php';
+ 
+$igo = new Igo('ipadic', 'UTF-8');
+
+// parse()メソッドを使うと品詞なども取得してくれます。
+$reponse = $igo->parse("すもももももももものうち");
+print_r($reponse);
+
+// wakati()メソッドは単語のみを取得してくれます。
+
+$reponse = $igo->wakati("すもももももももものうち");
+print_r($reponse);
+
+?>

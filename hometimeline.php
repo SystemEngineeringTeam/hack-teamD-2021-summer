@@ -10,9 +10,9 @@ ini_set('memory_limit', '1500M');
 <title>Twitter REST API OAuth接続 ホームタイムライン取得[ GET statuses/home_timeline.json ] | WEPICKS!</title>
 </head>
 <body>
- 
+
 <h1>Twitter REST API OAuth接続 ホームタイムライン取得[ GET statuses/home_timeline.json ]</h1>
- 
+
 <?php
 require_once("./util.php");
 require_once("igo-php-0.1.7/lib/Igo.php");
@@ -39,29 +39,45 @@ if(isset($_GET["oauth_token"]) || isset($_GET["oauth_verifier"])){
         $sScreenName=               $aResData[$iTweet]['user']['screen_name'];
         $sProfileImageUrl =         $aResData[$iTweet]['user']['profile_image_url'];
         $sCreatedAt =               $aResData[$iTweet]['created_at'];
-        $sStrtotime=                strtotime($sCreatedAt);
+        $sStrtotime =               strtotime($sCreatedAt);
         $sCreatedAt =               date('Y-m-d H:i:s', $sStrtotime);
-        $text = '';
+        $splitText = transText($sText, $igo);
 
+        // $sText = preg_replace('\#.+\s', "", $sText);
+        // $sText = str_replace()
         print '<img src='.$sProfileImageUrl.'>';
-        print '<h2>'.$sName.'(@'.$sScreenName.')さんのつぶやき</h2>';
-        print $sText.'<br>';
-        foreach(transText($sText, $igo) as $value){
+        print '<h2>メガネをかけている女子中学生である'.$sName.'(@'.$sScreenName.')さんのつぶやき</h2>';
+        print $sText;
+        $transedText = array();
+        foreach($splitText as $value){
             $feature = explode(',', $value->feature);
-
             print 'surface=>'.$value->surface.'<br>';
             print 'feature=>'.$value->feature.'<br>';
-            // if(strcmp($value->$surface, 'きみたち'))
-            // if(strcmp($feature[0], '名詞') == 0){
-                
-            // }
-            print '<br>';
+            if(strcmp(end($splitText)->surface, 'た') == 0 && strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'た') == 0){
+                array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $value->surface));
+                continue;
+            }
+            if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'です') == 0){
+                array_push($transedText, str_replace('です', 'です。うん。', $value->surface));
+                continue;
+            }
+            if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'ます') == 0){
+                array_push($transedText, str_replace('ます', 'ます。うん。はい。', $value->surface));
+                continue;
+            }
+            if(strcmp($feature[0], '名詞') == 0 && strcmp($value->surface, '笑') == 0){
+                array_push($transedText, str_replace('笑', 'wwwwwwwww', $value->surface));
+                continue;
+            }
+            array_push($transedText, $value->surface);
         }
+        if(mb_substr_count($sText, '!') >= 1 || mb_substr_count($sText, '！') >= 1){
+            array_unshift($transedText, 'オイイイイイィィィィィィィィィィ！！！！！！！！！！');
+        }
+        print implode($transedText);
+        
         print '<hr>';
         print '<br>';
-        // $sText = transText($sText, $igo);
-        // $html .= '<p>'.$sText.'</p>';
-        // $html .= '<hr>';
     }
     // アプリケーション連携の解除
     $html = '';

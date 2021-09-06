@@ -79,8 +79,8 @@ function getHomeTimeLine($api_key, $api_secret, $access_token, $access_token_sec
 
     $params_a = array(
         'count' => 150,
-        'exclude_replies' => false,
-        'include_entities' => false,
+        'exclude_replies' => true,
+        'include_entities' => true,
         'include_rts' => false,
         'tweet_mode' => 'extended',
     );
@@ -152,5 +152,66 @@ function transText($text, $igo){
     $response = $igo->parse($text);
     
     return $response;
+}
+
+function getTimeLineTransform($json, $header, $igo){
+    $aResData = json_decode($json, true);
+    for($iTweet = 0; $iTweet < sizeof($aResData); $iTweet++){
+        $iTweetId =                 $aResData[$iTweet]['id'];
+        $sIdStr =                   (string)$aResData[$iTweet]['id_str'];
+        $sText=                     $aResData[$iTweet]['full_text'];
+        $sName=                     $aResData[$iTweet]['user']['name'];
+        $sScreenName=               $aResData[$iTweet]['user']['screen_name'];
+        $sProfileImageUrl =         $aResData[$iTweet]['user']['profile_image_url'];
+        $sCreatedAt =               $aResData[$iTweet]['created_at'];
+        $sStrtotime =               strtotime($sCreatedAt);
+        $sCreatedAt =               date('Y-m-d H:i:s', $sStrtotime);
+        $splitText = transText($sText, $igo);
+
+        // $sText = preg_replace('\#.+\s', "", $sText);
+        // $sText = str_replace()
+        print '<img src='.$sProfileImageUrl.'>';
+        print '<h2>メガネをかけている女子中学生である'.$sName.'(@'.$sScreenName.')さんのつぶやき</h2>';
+        print $sText;
+        $transedText = array();
+        foreach($splitText as $value){
+            $feature = explode(',', $value->feature);
+            print 'surface=>'.$value->surface.'<br>';
+            print 'feature=>'.$value->feature.'<br>';
+            if(strcmp(end($splitText)->surface, 'た') == 0 && strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'た') == 0){
+                array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $value->surface));
+                continue;
+            }
+            if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'です') == 0){
+                array_push($transedText, str_replace('です', 'です。うん。', $value->surface));
+                continue;
+            }
+            if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'ます') == 0){
+                array_push($transedText, str_replace('ます', 'ます。うん。はい。', $value->surface));
+                continue;
+            }
+            if(strcmp($feature[0], '名詞') == 0 && strcmp($value->surface, '笑') == 0){
+                array_push($transedText, str_replace('笑', 'wwwwwwwww', $value->surface));
+                continue;
+            }
+            array_push($transedText, $value->surface);
+        }
+        if(mb_substr_count($sText, '!') >= 1 || mb_substr_count($sText, '！') >= 1){
+            array_unshift($transedText, 'オイイイイイィィィィィィィィィィ！！！！！！！！！！');
+        }
+        print implode($transedText);
+        
+        print '<hr>';
+        print '<br>';
+    }
+    // アプリケーション連携の解除
+    $html = '';
+    $html .= '<h2 style="color:red">アプリケーション連携の解除</h2>' ;
+    $html .= '<p>このアプリケーションとの連携を解除するには、下記ページより、行なって下さい。</p>' ;
+    $html .= '<p><a href="https://twitter.com/settings/applications" target="_blank">https://twitter.com/settings/applications</a></p>' ;
+
+    print $html;
+    
+    exit();
 }
 ?>

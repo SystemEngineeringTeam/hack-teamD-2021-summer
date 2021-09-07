@@ -219,28 +219,30 @@ function getTimeLineTransform($json, $header, $igo){
         $transedText = transText($sText, $igo);
 
         print '
-            <div class="twTweet">
-                <div class="twIconWrapper">
-                    <img class="twIcon" src=' . $sProfileImageUrl . '>
+            <!--<div class="card d-inline-flex p-2 border ">--!>
+                <div class="twTweet">
+                    <!--<<div class="col">
+                        div class="d-flex justify-content-start p-2">--!>
+                            <div class="twIconWrapper">
+                                <img class="twIcon" src=' . $sProfileImageUrl . '>
+                            </div>
+                            
+                            <div class="twContext">
+                                <div class="twName">
+                                    メガネをかけている'.$sName.'(@'.$sScreenName.')
+                                </div>
+                                <div class="twText">
+                                    '.implode($transedText).'
+                                </div>
+                                <div class="twTime">
+                                    '.$sCreatedAt.'
+                                </div>
+                            <!--</div>
+                        </div>--!>
+                    </div>
                 </div>
-                <div class="twContext">
-                    <div class="twName">
-                        メガネをかけている'.$sName.'(@'.$sScreenName.')
-                    </div>
-                    <div class="twText">
-                        '.implode($transedText).'
-                    </div>
-                    <div class="twImg">
-                        
-                    </div>
-                    <div class="twTime">
-                        '.$sCreatedAt.'
-                    </div>
-                </div>
-            </div>
-
-            <div class="borderLine"></div>
-        <br>';
+            <!--</div>--!>
+        ';
     }
     // アプリケーション連携の解除
     print '<h2 style="color:red">アプリケーション連携の解除</h2>' ;

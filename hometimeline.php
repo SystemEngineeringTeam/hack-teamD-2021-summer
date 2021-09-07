@@ -8,17 +8,41 @@ ini_set('memory_limit', '1500M');
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>誰でもメガネをかけた女子中学生</title>
     <link href="./css/utilStyle.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="pt-5">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top border" style="background-color:#FFFFFF">
+        <div class="container-fluid">
+            <span class="navbar-text">
+                Navbar text with an inline element
+            </span>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top border" style="background-color:#FFFFFF">
+            <div class="container-fluid">
+                <span class="navbar-text">
+                    Navbar text with an inline element
+                </span>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </nav>
+
+    </div>
 
     <div class="container-fluid">
 
         <div class="row justify-content-md-center">
-
-            <div class="col"></div>
 
             <div class="col">
 
@@ -49,11 +73,6 @@ ini_set('memory_limit', '1500M');
                 $callback_url = $thisUrl;
 
                 if (isset($_GET["oauth_token"]) || isset($_GET["oauth_verifier"])) {
-                    if(0){
-                        print "<a href=" . $callback_url . ">更新</a>";
-                        //http://7448-2405-6585-160-5f00-9126-e771-b7fe-e46f.ngrok.io/twitterAPI/hometimeline.php?oauth_token=9M5kvAAAAAABS_BQAAABe7-y6LI&oauth_verifier=GY8nGxBMJMbCujeRbPP7y1jEE2EMYz04
-                        //http://7448-2405-6585-160-5f00-9126-e771-b7fe-e46f.ngrok.io/twitterAPI/hometimeline.php?oauth_token=9M5kvAAAAAABS_BQAAABe7-y6LI&oauth_verifier=GY8nGxBMJMbCujeRbPP7y1jEE2EMYz04
-                    }
                     $query = getAccessToken($api_key, $api_secret);
                     $tweetInfo = getHomeTimeLine($api_key, $api_secret, $query["oauth_token"], $query["oauth_token_secret"]);
                     list($json, $header) = $tweetInfo;

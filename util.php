@@ -150,59 +150,83 @@ function getSignature($params, $request_method, $request_url, $signature_key, $i
 
 function transText($text, $igo){
     $response = $igo->parse($text);
-    
-    return $response;
+
+    // print $sText . '<br>';
+    $transedText = array();
+    foreach($response as $value){
+        $feature = explode(',', $value->feature);
+        print 'surface=>'.$value->surface.'<br>';
+        print 'feature=>'.$value->feature.'<br>';
+        if(strcmp($feature[0], '助動詞') == 0 && strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'た') == 0){
+            array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $value->surface));
+            continue;
+        }
+        if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'です') == 0){
+            array_push($transedText, str_replace('です', 'です。うん。', $value->surface));
+            continue;
+        }
+        if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'ます') == 0){
+            array_push($transedText, str_replace('ます', 'ます。うん。はい。', $value->surface));
+            continue;
+        }
+        if(strcmp($feature[0], '名詞') == 0 && strcmp($value->surface, '笑') == 0){
+            array_push($transedText, str_replace('', '', $value->surface));
+            continue;
+        }
+        if(strcmp($feature[0], '名詞') == 0 && strcmp($value->surface, '笑') == 0){
+            array_push($transedText, str_replace('笑', 'wwwwwwwww', $value->surface));
+            continue;
+        }
+        
+        array_push($transedText, $value->surface);
+    }
+    if(mb_substr_count($text, '!') >= 1 || mb_substr_count($text, '！') >= 1){
+        array_unshift($transedText, 'オイイイイイィィィィィィィィィィ！！！！！！！！！！');
+    }
+
+    return $transedText;
 }
 
 function getTimeLineTransform($json, $header, $igo){
     $aResData = json_decode($json, true);
     for($iTweet = 0; $iTweet < sizeof($aResData); $iTweet++){
-        $iTweetId =                 $aResData[$iTweet]['id'];
-        $sIdStr =                   (string)$aResData[$iTweet]['id_str'];
-        $sText=                     $aResData[$iTweet]['full_text'];
-        $sName=                     $aResData[$iTweet]['user']['name'];
-        $sScreenName=               $aResData[$iTweet]['user']['screen_name'];
-        $sProfileImageUrl =         $aResData[$iTweet]['user']['profile_image_url'];
-        $sCreatedAt =               $aResData[$iTweet]['created_at'];
-        $sStrtotime =               strtotime($sCreatedAt);
-        $sCreatedAt =               date('Y-m-d H:i:s', $sStrtotime);
-        $splitText = transText($sText, $igo);
+        $iTweetId = $aResData[$iTweet]['id'];
+        $sIdStr = (string)$aResData[$iTweet]['id_str'];
+        $sText = $aResData[$iTweet]['full_text'];
+        $sName = $aResData[$iTweet]['user']['name'];
+        $sScreenName = $aResData[$iTweet]['user']['screen_name'];
+        $sProfileImageUrl = $aResData[$iTweet]['user']['profile_image_url'];
+        $sCreatedAt = $aResData[$iTweet]['created_at'];
+        $sStrtotime = strtotime($sCreatedAt);
+        $sCreatedAt = date('Y-m-d H:i:s', $sStrtotime);
+        // for($i = 0;$i < )
+        $mediaUrl = $aResData[$iTweet]['entities']['media']['media_url'];
 
-        // $sText = preg_replace('\#.+\s', "", $sText);
-        // $sText = str_replace()
-        print '<img src='.$sProfileImageUrl.'>';
-        print '<h2>メガネをかけている女子中学生である'.$sName.'(@'.$sScreenName.')さんのつぶやき</h2>';
-        print $sText;
-        $transedText = array();
-        foreach($splitText as $value){
-            $feature = explode(',', $value->feature);
-            print 'surface=>'.$value->surface.'<br>';
-            print 'feature=>'.$value->feature.'<br>';
-            if(strcmp(end($splitText)->surface, 'た') == 0 && strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'た') == 0){
-                array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $value->surface));
-                continue;
-            }
-            if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'です') == 0){
-                array_push($transedText, str_replace('です', 'です。うん。', $value->surface));
-                continue;
-            }
-            if(strcmp($feature[0], '助動詞') == 0 && strcmp($value->surface, 'ます') == 0){
-                array_push($transedText, str_replace('ます', 'ます。うん。はい。', $value->surface));
-                continue;
-            }
-            if(strcmp($feature[0], '名詞') == 0 && strcmp($value->surface, '笑') == 0){
-                array_push($transedText, str_replace('笑', 'wwwwwwwww', $value->surface));
-                continue;
-            }
-            array_push($transedText, $value->surface);
-        }
-        if(mb_substr_count($sText, '!') >= 1 || mb_substr_count($sText, '！') >= 1){
-            array_unshift($transedText, 'オイイイイイィィィィィィィィィィ！！！！！！！！！！');
-        }
-        print implode($transedText);
-        
-        print '<hr>';
-        print '<br>';
+        $transedText = transText($sText, $igo);
+
+        print '
+            <div class="twTweet">
+                <div class="twIconWrapper">
+                    <img class="twIcon" src=' . $sProfileImageUrl . '>
+                </div>
+                <div class="twContext">
+                    <div class="twName">
+                        メガネをかけている'.$sName.'(@'.$sScreenName.')
+                    </div>
+                    <div class="twText">
+                        '.implode($transedText).'
+                    </div>
+                    <div class="twImg">
+                        <img src="'.$mediaUrl.'">
+                    </div>
+                    <div class="twTime">
+                        '.$sCreatedAt.'
+                    </div>
+                </div>
+            </div>
+
+            <div class="borderLine"></div>
+        <br>';
     }
     // アプリケーション連携の解除
     print '<h2 style="color:red">アプリケーション連携の解除</h2>' ;

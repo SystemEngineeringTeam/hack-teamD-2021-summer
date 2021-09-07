@@ -1,0 +1,68 @@
+body *{
+	/* デバッグ用 */
+	/* border: 1px solid #3ff7fd; */
+}
+
+header{
+	display: flex;
+}
+
+.twitterLogo{
+
+}
+
+.webTitle{
+	
+}
+
+.twTweet{
+	margin: 0px auto;
+	display: flex;
+	width: 80%;
+}
+
+.twIconWrapper{
+	display: inline-block;
+	flex-shrink: 0;
+	width: 80px;
+	height: auto;
+	text-align: center;
+}
+
+
+.twIcon{
+	border-radius: 50%;
+}
+
+.twIcon img{
+	display: inline-block;
+	top: 10px;
+	width: 48px;
+	height: 48px;
+}
+
+.twContext{
+	width: 100%;
+}
+
+.twName{
+	top: 0;
+	left: 0;
+	font-weight: bold;
+}
+
+.twText{
+}
+
+.twTime{
+	text-align: right;
+	font-size: 10px;
+	color: #9b9b9b;
+}
+
+.borderLine{
+	height: 0px;
+	width: 80%;
+	margin: 10px auto;
+	border-top: 1px solid rgb(104, 104, 104);
+}

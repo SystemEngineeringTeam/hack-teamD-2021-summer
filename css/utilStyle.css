@@ -18,13 +18,16 @@ header{
 .twTweet{
 	margin: 0px auto;
 	display: flex;
-	width: 80%;
+	width: 70%;
+	padding: 10px 10px 0px 10px;
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
 }
 
 .twIconWrapper{
 	display: inline-block;
 	flex-shrink: 0;
-	width: 80px;
+	width: 50px;
 	height: auto;
 	text-align: center;
 }
@@ -64,5 +67,6 @@ header{
 	height: 0px;
 	width: 80%;
 	margin: 10px auto;
-	border-top: 1px solid rgb(104, 104, 104);
+	border-radius: 2px;
+	border-top: 2px solid rgb(104, 104, 104);
 }

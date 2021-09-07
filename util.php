@@ -205,12 +205,9 @@ function getTimeLineTransform($json, $header, $igo){
         print '<br>';
     }
     // アプリケーション連携の解除
-    $html = '';
-    $html .= '<h2 style="color:red">アプリケーション連携の解除</h2>' ;
-    $html .= '<p>このアプリケーションとの連携を解除するには、下記ページより、行なって下さい。</p>' ;
-    $html .= '<p><a href="https://twitter.com/settings/applications" target="_blank">https://twitter.com/settings/applications</a></p>' ;
-
-    print $html;
+    print '<h2 style="color:red">アプリケーション連携の解除</h2>' ;
+    print '<p>このアプリケーションとの連携を解除するには、下記ページより、行なって下さい。</p>' ;
+    print '<p><a href="https://twitter.com/settings/applications" target="_blank">https://twitter.com/settings/applications</a></p>' ;
     
     exit();
 }

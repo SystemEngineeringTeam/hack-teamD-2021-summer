@@ -61,7 +61,7 @@ function getRequestToken($api_key, $api_secret, $callback_url){
 
 
     if(!$response){
-        print "<p>リクエストトークンを取得できませんでした。$api_keyと$callback_url、そしてTwitterのアプリケーションに設定しているCallback URLを確認して下さい。</p>";
+        print "<p>リクエストトークンを取得できませんでした。" . $api_key . "と" . $callback_url . "、そしてTwitterのアプリケーションに設定しているCallback URLを確認して下さい。</p>";
         exit();
     }
 
@@ -150,16 +150,21 @@ function getSignature($params, $request_method, $request_url, $signature_key, $i
 
 function transText($text, $igo){
     $response = $igo->parse($text);
+    $detailDisp = true;//詳細の表示のオンオフ(開発用)
 
-    // print $sText . '<br>';
     $transedText = array();
-    print "<details>" . $text . "<br><table border='1' rules='rows'><tr><th>surface</th><th>feature</th></tr>";
+    if($detailDisp){
+        print "<details>" . $text . "<br><table border='1' rules='rows'><tr><th>surface</th><th>feature</th></tr>";
+    }
     foreach($response as $value){
         $feature = explode(',', $value->feature);
         
-        print '<tr><td>' . $value->surface . '</td>';
-        print '<td>' . $value->feature . '</td></tr>';
-    
+        if($detailDisp){
+            print '<tr><td>' . $value->surface . '</td>';
+            print '<td>' . $value->feature . '</td></tr>';
+        }
+         //***********************条件に合わせて語を変換***********************
+        
         if($feature[0] === '助動詞' && $value->surface === 'た'){
             array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $value->surface));
             continue;
@@ -176,7 +181,11 @@ function transText($text, $igo){
             array_push($transedText, $value->surface.'。うん。');
             continue;
         }
-        if($feature[0] === '名詞' && $value->surface === '笑'){
+        if($feature[0] === '動詞' && $feature[1] === '非自立' && strpos($feature[4], '一段') !== false){
+            array_push($transedText, $value->surface.'(は？)');
+            continue;
+        }
+        if($feature[0] === '名詞' && mb_substr_count($value->surface, '笑') >= 1){
             array_push($transedText, str_replace('笑', 'wwwwwwwww', $value->surface));
             continue;
         }
@@ -188,7 +197,6 @@ function transText($text, $igo){
             array_push($transedText, '…むり……');
             continue;
         }
-
         
         array_push($transedText, $value->surface);
     }
@@ -196,7 +204,11 @@ function transText($text, $igo){
     if(mb_substr_count($text, '!') >= 1 || mb_substr_count($text, '！') >= 1 || mb_substr_count($text, 'ww') >= 1|| mb_substr_count($text, '笑') >= 1){
         array_unshift($transedText, 'オイイイイイィィィィィィィィィィ！！！！！！！！！！');
     }
-    print "</table></details>";
+    //*************************************************************
+
+    if($detailDisp){
+        print "</table></details>";
+    }
 
     return $transedText;
 }
@@ -217,31 +229,31 @@ function getTimeLineTransform($json, $header, $igo){
         //$mediaUrl = $aResData[$iTweet]['entities']['media']['media_url'];
 
         $transedText = transText($sText, $igo);
-
+        
         print '
-            <!--<div class="card d-inline-flex p-2 border ">--!>
-                <div class="twTweet">
-                    <!--<<div class="col">
-                        div class="d-flex justify-content-start p-2">--!>
-                            <div class="twIconWrapper">
-                                <img class="twIcon" src=' . $sProfileImageUrl . '>
-                            </div>
-                            
-                            <div class="twContext">
-                                <div class="twName">
-                                    メガネをかけている'.$sName.'(@'.$sScreenName.')
-                                </div>
-                                <div class="twText">
-                                    '.implode($transedText).'
-                                </div>
-                                <div class="twTime">
-                                    '.$sCreatedAt.'
-                                </div>
-                            <!--</div>
-                        </div>--!>
+            <div class="twTweet card p-2">
+                <a class="twDetailLink"></a>
+                <div class="twIconWrapper">
+                    <img class="twIcon" src=' . $sProfileImageUrl . '>
+                </div>
+                
+                <div class="twContext px-1">
+                    <div class="twName">
+                        <div class="twUserName">
+                            メガネをかけている'.$sName.'
+                        </div>
+                        <div class="twAccountName">
+                            @'.$sScreenName.'
+                        </div>
+                    </div>
+                    <div class="twText">
+                        '.implode($transedText).'
+                    </div>
+                    <div class="twTime">
+                        '.$sCreatedAt.'
                     </div>
                 </div>
-            <!--</div>--!>
+            </div>
         ';
     }
     // アプリケーション連携の解除

@@ -150,55 +150,56 @@ function getSignature($params, $request_method, $request_url, $signature_key, $i
 
 function transText($text, $igo){
     $response = $igo->parse($text);
-    $detailDisp = true;//詳細の表示のオンオフ(開発用)
 
     $transedText = array();
-    if($detailDisp){
-        print "<details>" . $text . "<br><table border='1' rules='rows'><tr><th>surface</th><th>feature</th></tr>";
+
+    print $text . "<br><table border='1' rules='rows'><tr><th>surface</th><th>feature</th></tr>";
+    //foreach($response as $value){
+    if(0){
+        print_r($response[0]);echo '<br><br>';
+        array_unshift($response, ['surface' => '','feature' => "'','','','','','','','',''", 'start' => 0]);
     }
-    foreach($response as $value){
-        $feature = explode(',', $value->feature);
+    for($i = 0; $i < count($response); $i++){
+        $feature = explode(',', $response[$i]->feature);
         
-        if($detailDisp){
-            print '<tr><td>' . $value->surface . '</td>';
-            print '<td>' . $value->feature . '</td></tr>';
-        }
+        print '<tr><td>' . $response[$i]->surface . '</td>';
+        print '<td>' . $response[$i]->feature . '</td></tr>';
          //***********************条件に合わせて語を変換***********************
         
-        if($feature[0] === '助動詞' && $value->surface === 'た'){
-            array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $value->surface));
+        if($feature[0] === '助動詞' && $response[$i]->surface === 'た'){
+            array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $response[$i]->surface));
             continue;
         }
-        if($feature[0] === '助動詞' && $value->surface === 'です'){
-            array_push($transedText, str_replace('です', 'です。うん。', $value->surface));
+        if($feature[0] === '助動詞' && $response[$i]->surface === 'です'){
+            array_push($transedText, str_replace('です', 'です。うん。', $response[$i]->surface));
             continue;
         }
-        if($feature[0] === '助動詞' && $value->surface === 'ます'){
-            array_push($transedText, str_replace('ます', 'ます。うん。はい。', $value->surface));
+        if($feature[0] === '助動詞' && $response[$i]->surface === 'ます'){
+            array_push($transedText, str_replace('ます', 'ます。うん。はい。', $response[$i]->surface));
             continue;
         }
         if(($feature[0] === '助動詞' && $feature[4] === '不変化型') || ($feature[0] === '助詞' && $feature[1] === '終助詞')){
-            array_push($transedText, $value->surface.'。うん。');
+            array_push($transedText, $response[$i]->surface.'。うん。');
             continue;
         }
         if($feature[0] === '動詞' && $feature[1] === '非自立' && strpos($feature[4], '一段') !== false){
-            array_push($transedText, $value->surface.'(は？)');
+            array_push($transedText, $response[$i]->surface.'(は？)');
             continue;
         }
-        if($feature[0] === '名詞' && mb_substr_count($value->surface, '笑') >= 1){
-            array_push($transedText, str_replace('笑', 'wwwwwwwww', $value->surface));
+        if($feature[0] === '名詞' && mb_substr_count($response[$i]->surface, '笑') >= 1){
+            array_push($transedText, str_replace('笑', 'wwwwwwwww', $response[$i]->surface));
             continue;
         }
-        if(mb_substr_count($value->surface, '.') >= 3){
+        if(mb_substr_count($response[$i]->surface, '.') >= 3){
             array_push($transedText, '...むり.....');
             continue;
         }
-        if(mb_substr_count($value->surface, '…') >= 1){
+        if(mb_substr_count($response[$i]->surface, '…') >= 1){
             array_push($transedText, '…むり……');
             continue;
         }
         
-        array_push($transedText, $value->surface);
+        array_push($transedText, $response[$i]->surface);
     }
 
     if(mb_substr_count($text, '!') >= 1 || mb_substr_count($text, '！') >= 1 || mb_substr_count($text, 'ww') >= 1|| mb_substr_count($text, '笑') >= 1){
@@ -206,9 +207,7 @@ function transText($text, $igo){
     }
     //*************************************************************
 
-    if($detailDisp){
-        print "</table></details>";
-    }
+    print "</table>";
 
     return $transedText;
 }
@@ -225,14 +224,25 @@ function getTimeLineTransform($json, $header, $igo){
         $sCreatedAt = $aResData[$iTweet]['created_at'];
         $sStrtotime = strtotime($sCreatedAt);
         $sCreatedAt = date('Y-m-d H:i:s', $sStrtotime);
-        // for($i = 0;$i < )
-        //$mediaUrl = $aResData[$iTweet]['entities']['media']['media_url'];
+        //$sUrl = $aResData[$iTweet]['entities']['urls']['expanded_url'];
 
-        $transedText = transText($sText, $igo);
+        print '
+            <div class="modal-wrapper" id="modal-' . $iTweet . '">
+                <a href="#!" class="modal-overlay"></a>
+                <div class="modal-window">
+                    <div class="modal-content">';
+                        $transedText = transText($sText, $igo);
+        print '
+                    </div>
+                    <a href="#!" class="modal-close">×</a>
+                </div>
+            </div>
+        ';
+
         
         print '
-            <div class="twTweet card p-2">
-                <a class="twDetailLink"></a>
+            <div class="twTweet card linkWrapper">
+                <a class="link" href="#modal-' . $iTweet . '"></a>
                 <div class="twIconWrapper">
                     <img class="twIcon" src=' . $sProfileImageUrl . '>
                 </div>

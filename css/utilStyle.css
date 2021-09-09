@@ -1,51 +1,159 @@
-body *{
+body * {
 	/* デバッグ用 */
 	/* border: 1px solid #3ff7fd; */
 }
 
-.headerBrank{
-	height: 30px;
+.headerBrank {
+	height: 50px;
 }
 
-.linkWrapper{
+.headerContext {
+	display: inline-flex;
+	flex-direction: column;
+	white-space: nowrap;
+	justify-content: center;
+}
+
+.siteTitle {
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin-left: 5px;
+}
+
+@media (max-width: 551px) {
+	.siteTitle {
+		position: absolute;
+		width: 135px;
+		font-size: 17px;
+	}
+}
+
+@media (min-width: 552px) {
+	.siteTitle {
+		width: 400px;
+		font-size: 25px;
+	}
+}
+
+.linkWrapper {
 	position: relative;
+	display: inline-block;
 }
 
-.link{
+.link {
 	display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
-.glasses{
-	height: 48px;
-	width: 48px;
+.glasses {
+	max-height: 48px;
+	max-width: 48px;
 	border-radius: 50%;
 }
 
-.twAll{
+.headerContextBrank {
+	flex-grow: 1;
+}
+
+.cbHidden {
+	display: none;
+}
+
+.menuBtnWrapper {
+	display: inline-block;
+	flex-grow: 0;
+	padding: auto;
+	height: 100%;
+	width: 50px;
+	margin: auto 10px auto auto;
+	position: relative;
+}
+
+.menuBtn {
+	height: 48px;
+	width: 48px;
+	border-radius: 5px;
+	background-color: rgb(165, 165, 165);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Group1 * {
+	transition: translate, 0.5s transform, 0.5s scale, 0.5s;
+}
+
+#menuOpen:checked~.menuBtn #bar1 {
+	transform: translate(3px, 0px) rotate(45deg) scale(1.3, 1);
+}
+
+#menuOpen:checked~.menuBtn #bar2 {
+	transform: translate(19px, 0px) scale(0, 1);
+}
+
+#menuOpen:checked~.menuBtn #bar3 {
+	transform: translate(-30px, 15px) rotate(-45deg) scale(1.3, 1);
+}
+
+.menuWrapper {
+	position: absolute;
+	display: inline-flex;
+	flex-direction: column;
+	top: 54px;
+	right: -10px;
+}
+
+.menuContext {
+	flex: 1;
+	background-color: rgb(184, 184, 184);
+	border: 1px solid rgb(71, 71, 71);
+	width: 150px;
+	height: 80px;
+	transition: translate, .5s;
+}
+
+.menuContext:hover {
+	background-color: rgb(136, 136, 136);
+	transform: translate(-10px, 0px);
+}
+
+#menuOpen:not(:checked)~.menuWrapper {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .4s, visibility .4s;
+}
+
+#menuOpen:checked~.menuWrapper {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity .4s, visibility .4s;
+}
+
+.twAll {
 	scroll-snap-type: y mandatory;
 	overflow: auto;
 	position: relative;
 	-webkit-overflow-scrolling: touch;
 }
 
-.twTweet{
+.twTweet {
 	scroll-snap-align: start;
 	overflow: auto;
 	display: flex;
 	position: relative;
 	flex-direction: row;
+	max-width: 800px;
 	margin: 15px auto;
 	padding: 5px 2px 0 5px;
 	border: 1px solid #aaaaaa;
 	border-radius: 5px;
 }
 
-.twIconWrapper{
+.twIconWrapper {
 	display: inline-block;
 	flex-shrink: 0;
 	margin: 0px;
@@ -54,68 +162,66 @@ body *{
 	text-align: start;
 }
 
-
-.twIcon{
+.twIcon {
 	border-radius: 50%;
 }
 
-.twIcon img{
+.delimiterImg {
+	border-radius: 50%;
+	width: 50px;
+	height: auto;
+	margin: 3px;
+}
+
+.twIcon img {
 	display: inline-block;
 	top: 10px;
 	width: 48px;
 	height: 48px;
 }
 
-.twContext{
+.twContext {
 	display: inline-block;
 	width: 100%;
 	scroll-snap-align: start;
 }
 
-.twName{
+.twName {
 	top: 0;
 	left: 0;
 	flex-direction: row;
 }
 
-.twUserName{
+.twUserName {
 	display: inline-block;
 	font-weight: bold;
 }
 
-.twAccountName{
+.twAccountName {
 	display: inline-block;
 	font-size: 10px;
 	color: #9b9b9b;
 }
 
-.twText{
+.twText {
 	word-break: break-word;
 }
 
-.twTime{
+.twTime {
 	text-align: right;
 	font-size: 10px;
 	color: #9b9b9b;
 }
 
-.borderLine{
-	height: 0px;
-	width: 80%;
-	margin: 10px auto;
-	border-radius: 2px;
-	border-top: 2px solid rgb(104, 104, 104);
-}
-
-.toAuth:hover{
+.ridAuth:hover, .toAuth:hover {
 	filter: brightness(80%);
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-ul li::before{
+li::before {
 	content: '';
 	background-color: #40c4f5;
 	border-radius: 50%;
@@ -125,8 +231,26 @@ ul li::before{
 	margin: 0 8px 2px 0;
 }
 
-@media(max-width: 420px){
-	.headerBrank{
+nav, .description, .ridAuthDescription {
+	font-family: 'Yusei Magic', sans-serif;
+}
+
+.ridAuthTitle {
+	color: #e60000;
+}
+
+.overView, .detail {
+	margin-left: 50px;
+}
+
+@media(max-width: 420px) {
+	.headerBrank {
 		height: 50px;
 	}
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+	background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }

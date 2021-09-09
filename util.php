@@ -73,6 +73,36 @@ function getRequestToken($api_key, $api_secret, $callback_url){
     return $query;
 }
 
+function getTweet($api_key, $api_secret, $access_token, $access_token_secret, $id){
+    $request_url = 'https://api.twitter.com/1.1/statuses/lookup.json';
+    $request_method = 'GET';
+
+    $params_a = array(
+        'id' => $id,
+        'exclude_replies' => true,
+        'include_entities' => true,
+        'include_rts' => false,
+        'tweet_mode' => 'extended',
+    );
+
+    $signature_key = rawurlencode($api_secret).'&'.rawurlencode($access_token_secret);
+
+    $params_b = array(
+        'oauth_token' => $access_token,
+        'oauth_consumer_key' => $api_key,
+        'oauth_signature_method' => 'HMAC-SHA1',
+        'oauth_timestamp' => time(),
+        'oauth_nonce' => microtime(),
+        'oauth_version' => '1.0',
+    );
+
+    $params_c = array_merge($params_a, $params_b);
+    ksort($params_c);
+    list($json, $header) = getSignature($params_c, $request_method, $request_url, $signature_key, true, $params_a);
+
+    return [$json, $header];
+}
+
 function getHomeTimeLine($api_key, $api_secret, $access_token, $access_token_secret){
     $request_url = 'https://api.twitter.com/1.1/statuses/home_timeline.json';
     $request_method = 'GET';
@@ -157,49 +187,58 @@ function transText($text, $igo){
     //foreach($response as $value){
     if(0){
         print_r($response[0]);echo '<br><br>';
-        array_unshift($response, ['surface' => '','feature' => "'','','','','','','','',''", 'start' => 0]);
+        // $emp = array('surface' => '*****','feature' => "", 'start' => 0);
+        $i = 1;
+        foreach($response as $value){
+            $feature[$i] = explode(',', $value->feature);
+            $surface[$i] = $value->surface;
+            $i++;
+        }
+        $feature[0] = $feature[count($feature) + 1] = array('','','','','','','','','');
+        $surface[0] = $surface[count($surface) + 1] = '';
     }
-    for($i = 0; $i < count($response); $i++){
+    for($i = 1; $i < count($response) + 1; $i++){
         $feature = explode(',', $response[$i]->feature);
         
-        print '<tr><td>' . $response[$i]->surface . '</td>';
+        print '<tr><td>' . $surface[$i] . '</td>';
         print '<td>' . $response[$i]->feature . '</td></tr>';
          //***********************条件に合わせて語を変換***********************
         
-        if($feature[0] === '助動詞' && $response[$i]->surface === 'た'){
-            array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $response[$i]->surface));
+        if($feature[0] === '助動詞' && $surface[$i] === 'た'){
+            array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $surface[$i]));
             continue;
         }
-        if($feature[0] === '助動詞' && $response[$i]->surface === 'です'){
-            array_push($transedText, str_replace('です', 'です。うん。', $response[$i]->surface));
+        if($feature[0] === '助動詞' && $surface[$i] === 'です'){
+            array_push($transedText, str_replace('です', 'です。うん。', $surface[$i]));
             continue;
         }
-        if($feature[0] === '助動詞' && $response[$i]->surface === 'ます'){
-            array_push($transedText, str_replace('ます', 'ます。うん。はい。', $response[$i]->surface));
+        if($feature[0] === '助動詞' && $surface[$i] === 'ます'){
+            array_push($transedText, str_replace('ます', 'ます。うん。はい。', $surface[$i]));
             continue;
         }
         if(($feature[0] === '助動詞' && $feature[4] === '不変化型') || ($feature[0] === '助詞' && $feature[1] === '終助詞')){
-            array_push($transedText, $response[$i]->surface.'。うん。');
+            array_push($transedText, $surface[$i].'。うん。');
             continue;
         }
         if($feature[0] === '動詞' && $feature[1] === '非自立' && strpos($feature[4], '一段') !== false){
-            array_push($transedText, $response[$i]->surface.'(は？)');
+            array_push($transedText, $surface[$i].'(は？)');
             continue;
         }
-        if($feature[0] === '名詞' && mb_substr_count($response[$i]->surface, '笑') >= 1){
-            array_push($transedText, str_replace('笑', 'wwwwwwwww', $response[$i]->surface));
+        if($feature[0] === '名詞' && mb_substr_count($surface[$i], '笑') >= 1){
+            array_push($transedText, str_replace('笑', 'wwwwwwwww', $surface[$i]));
             continue;
         }
-        if(mb_substr_count($response[$i]->surface, '.') >= 3){
+        if(mb_substr_count($surface[$i], '.') >= 3){
             array_push($transedText, '...むり.....');
             continue;
         }
-        if(mb_substr_count($response[$i]->surface, '…') >= 1){
+        if(mb_substr_count($surface[$i], '…') >= 1){
             array_push($transedText, '…むり……');
             continue;
         }
         
-        array_push($transedText, $response[$i]->surface);
+        
+        array_push($transedText, $surface[$i]);
     }
 
     if(mb_substr_count($text, '!') >= 1 || mb_substr_count($text, '！') >= 1 || mb_substr_count($text, 'ww') >= 1|| mb_substr_count($text, '笑') >= 1){
@@ -266,11 +305,74 @@ function getTimeLineTransform($json, $header, $igo){
             </div>
         ';
     }
-    // アプリケーション連携の解除
-    print '<h2 style="color:red">アプリケーション連携の解除</h2>' ;
-    print '<p>このアプリケーションとの連携を解除するには、下記ページより、行なって下さい。</p>' ;
-    print '<p><a href="https://twitter.com/settings/applications" target="_blank">https://twitter.com/settings/applications</a></p>' ;
     
+}
+
+function getTweetTransform($json, $header, $igo){
+    $aResData = json_decode($json, true);
+    $iTweetId = $aResData[0]['id'];
+    $sIdStr = (string)$aResData[0]['id_str'];
+    $sText = $aResData[0]['full_text'];
+    $sName = $aResData[0]['user']['name'];
+    $sScreenName = $aResData[0]['user']['screen_name'];
+    $sProfileImageUrl = $aResData[0]['user']['profile_image_url'];
+    $sCreatedAt = $aResData[0]['created_at'];
+    $sStrtotime = strtotime($sCreatedAt);
+    $sCreatedAt = date('Y-m-d H:i:s', $sStrtotime);
+    //$sUrl = $aResData[$iTweet]['entities']['urls']['expanded_url'];
+
+    print '
+        <div class="modal-wrapper" id="modal-a">
+            <a href="#!" class="modal-overlay"></a>
+            <div class="modal-window">
+                <div class="modal-content">';
+                    $transedText = transText($sText, $igo);
+    print '
+                </div>
+                <a href="#!" class="modal-close">×</a>
+            </div>
+        </div>
+    ';
+
+    
+    print '
+        <div class="twTweet card linkWrapper">
+            <a class="link" href="#modal-a"></a>
+            <div class="twIconWrapper">
+                <img class="twIcon" src=' . $sProfileImageUrl . '>
+            </div>
+            
+            <div class="twContext px-1">
+                <div class="twName">
+                    <div class="twUserName">
+                        メガネをかけている'.$sName.'
+                    </div>
+                    <div class="twAccountName">
+                        @'.$sScreenName.'
+                    </div>
+                </div>
+                <div class="twText">
+                    '.implode($transedText).'
+                </div>
+                <div class="twTime">
+                    '.$sCreatedAt.'
+                </div>
+            </div>
+        </div>
+    ';
+
+     // アプリケーション連携の解除
+    print '<div class="ridAuthDescription">
+        <hr>
+        <h2 class="ridAuthTitle">アプリケーション連携の解除</h2>
+        <p>このアプリケーションとの連携を解除するには、下記ページより行なって下さい。</p>
+        <p><a href="https://twitter.com/settings/applications/21753936" target="_blank"><img class="ridAuth" src="imgSvg/ridAuth.svg" alt="連携解除"></img></a></p>
+        </div>' ;
+    exit();
+}
+
+function noticeCallback(){
+    header('Location: ./hometimeline.php');
     exit();
 }
 ?>

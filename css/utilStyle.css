@@ -153,6 +153,12 @@ body * {
 	border-radius: 5px;
 }
 
+.twTweet:hover{
+	color: #808080;
+	transform: scale(1.02);
+	transition: .1s;
+}
+
 .twIconWrapper {
 	display: inline-block;
 	flex-shrink: 0;

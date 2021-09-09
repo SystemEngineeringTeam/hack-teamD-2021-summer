@@ -3,7 +3,7 @@ session_start();
 session_regenerate_id(true);
 ini_set('memory_limit', '1500M');
 require_once("./util.php");
-set_error_handler('noticeCallback', E_NOTICE);
+//set_error_handler('noticeCallback', E_NOTICE);
 ?>
 <!DOCTYPE HTML>
 <html lang="ja">
@@ -96,13 +96,13 @@ set_error_handler('noticeCallback', E_NOTICE);
                 $my_access_token = "1272371880595296256-ot0XuuYwLgsjQO8sDAaedqMsQPAAGb";
                 $my_access_token_secret = "SzwF0VdpdsmZiPqG7g9YW7Jg8661Gc71GJY7XEwfLvJuM";
 
-                try {
                     if (isset($_GET["oauth_token"]) || isset($_GET["oauth_verifier"])) {
-                        $query = getAccessToken($api_key, $api_secret);
-                        $tlInfo = getHomeTimeLine($api_key, $api_secret, $query["oauth_token"], $query["oauth_token_secret"]);
-                        list($json, $header) = $tlInfo;
+                        
+                            $query = getAccessToken($api_key, $api_secret);
+                            $tlInfo = getHomeTimeLine($api_key, $api_secret, $query["oauth_token"], $query["oauth_token_secret"]);
+                            list($json, $header) = $tlInfo;
 
-                        getTimeLineTransform($json, $header, $igo);
+                            getTimeLineTransform($json, $header, $igo);
                     } else if (isset($_GET["denied"])) {
                         print "<p>連携が拒否されました。</p>";
                         exit();
@@ -134,7 +134,7 @@ set_error_handler('noticeCallback', E_NOTICE);
                                     <p>右上のメニューバーにツイートボタンがあるので、ツイートして拡散してくれると嬉しいです。
                                 </div>
                                 <h4>認証はこちらから↓</h4>
-                                <p><a href="https://api.twitter.com/oauth/authorize?oauth_token=' . $query["oauth_token"] . '"><img class="toAuth" src="imgSvg/toAuth.svg" alt="認証画面へ"></img></a></p>
+                                <p><a href="https://api.twitter.com/oauth/authenticate?oauth_token=' . $query["oauth_token"] . '"><img class="toAuth" src="imgSvg/toAuth.svg" alt="認証画面へ"></img></a></p>
                                 
                                 <p>使用させていただいたライブラリ：
                                 <ul>
@@ -145,9 +145,6 @@ set_error_handler('noticeCallback', E_NOTICE);
                                 </ul>
                             </div>';
                     }
-                } finally {
-                    restore_error_handler();
-                }
 
                 ?>
             </div>

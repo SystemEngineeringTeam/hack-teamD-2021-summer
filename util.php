@@ -184,47 +184,43 @@ function transText($text, $igo){
     $transedText = array();
 
     print $text . "<br><table border='1' rules='rows'><tr><th>surface</th><th>feature</th></tr>";
-    //foreach($response as $value){
-    if(0){
-        print_r($response[0]);echo '<br><br>';
-        // $emp = array('surface' => '*****','feature' => "", 'start' => 0);
-        $i = 1;
-        foreach($response as $value){
-            $feature[$i] = explode(',', $value->feature);
-            $surface[$i] = $value->surface;
-            $i++;
-        }
-        $feature[0] = $feature[count($feature) + 1] = array('','','','','','','','','');
-        $surface[0] = $surface[count($surface) + 1] = '';
+
+    $i = 1;
+    foreach($response as $value){
+        print '<tr><td>' . $value->feature . '</td>';
+        print '<td>' . $value->surface . '</td></tr>';
+        $feature[$i] = explode(',', $value->feature);
+        $surface[$i] = $value->surface;
+        $i++;
     }
+    $feature[0] = $feature[count($feature) + 1] = array('','','','','','','','','');
+    $surface[0] = $surface[count($surface) + 1] = '';
+
+    print "</table>";
     for($i = 1; $i < count($response) + 1; $i++){
-        $feature = explode(',', $response[$i]->feature);
-        
-        print '<tr><td>' . $surface[$i] . '</td>';
-        print '<td>' . $response[$i]->feature . '</td></tr>';
          //***********************条件に合わせて語を変換***********************
         
-        if($feature[0] === '助動詞' && $surface[$i] === 'た'){
+        if($feature[$i][0] === '助動詞' && $surface[$i] === 'た'){
             array_push($transedText, str_replace('た', 'たんだがwwwwwwwwww', $surface[$i]));
             continue;
         }
-        if($feature[0] === '助動詞' && $surface[$i] === 'です'){
+        if($feature[$i][0] === '助動詞' && $surface[$i] === 'です'){
             array_push($transedText, str_replace('です', 'です。うん。', $surface[$i]));
             continue;
         }
-        if($feature[0] === '助動詞' && $surface[$i] === 'ます'){
+        if($feature[$i][0] === '助動詞' && $surface[$i] === 'ます'){
             array_push($transedText, str_replace('ます', 'ます。うん。はい。', $surface[$i]));
             continue;
         }
-        if(($feature[0] === '助動詞' && $feature[4] === '不変化型') || ($feature[0] === '助詞' && $feature[1] === '終助詞')){
+        if(($feature[$i][0] === '助動詞' && $feature[$i][4] === '不変化型') || ($feature[$i][0] === '助詞' && $feature[$i][1] === '終助詞')){
             array_push($transedText, $surface[$i].'。うん。');
             continue;
         }
-        if($feature[0] === '動詞' && $feature[1] === '非自立' && strpos($feature[4], '一段') !== false){
+        if($feature[$i][0] === '動詞' && $feature[$i][1] === '非自立' && strpos($feature[$i][4], '一段') !== false){
             array_push($transedText, $surface[$i].'(は？)');
             continue;
         }
-        if($feature[0] === '名詞' && mb_substr_count($surface[$i], '笑') >= 1){
+        if($feature[$i][0] === '名詞' && mb_substr_count($surface[$i], '笑') >= 1){
             array_push($transedText, str_replace('笑', 'wwwwwwwww', $surface[$i]));
             continue;
         }
@@ -246,7 +242,6 @@ function transText($text, $igo){
     }
     //*************************************************************
 
-    print "</table>";
 
     return $transedText;
 }
@@ -309,6 +304,7 @@ function getTimeLineTransform($json, $header, $igo){
 }
 
 function getTweetTransform($json, $header, $igo){
+    try{
     $aResData = json_decode($json, true);
     $iTweetId = $aResData[0]['id'];
     $sIdStr = (string)$aResData[0]['id_str'];
@@ -360,6 +356,9 @@ function getTweetTransform($json, $header, $igo){
             </div>
         </div>
     ';
+}finally{
+    restore_error_handler();
+}
 
      // アプリケーション連携の解除
     print '<div class="ridAuthDescription">
@@ -368,7 +367,6 @@ function getTweetTransform($json, $header, $igo){
         <p>このアプリケーションとの連携を解除するには、下記ページより行なって下さい。</p>
         <p><a href="https://twitter.com/settings/applications/21753936" target="_blank"><img class="ridAuth" src="imgSvg/ridAuth.svg" alt="連携解除"></img></a></p>
         </div>' ;
-    exit();
 }
 
 function noticeCallback(){

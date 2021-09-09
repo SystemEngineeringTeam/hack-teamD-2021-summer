@@ -75,4 +75,6 @@
 
 .modal-wrapper .modal-close:hover {
 	color: #2b2e38!important;
+	font-size: 32px;
+	transition: .1s;
 }

@@ -3,7 +3,7 @@ session_start();
 session_regenerate_id(true);
 ini_set('memory_limit', '1500M');
 require_once("./util.php");
-//set_error_handler('noticeCallback', E_NOTICE);
+set_error_handler('noticeCallback', E_NOTICE);
 ?>
 <!DOCTYPE HTML>
 <html lang="ja">
